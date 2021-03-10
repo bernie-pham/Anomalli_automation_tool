@@ -29,12 +29,40 @@ trusted_circles[21]=146
 trusted_circles[22]=145
 trusted_circles[23]=187
 
+
+
 name=([1]="AVIATION TIC" [2]="EDUCATION TIC" [3]="ENERGY TIC" [4]="FINANCIAL SERVICES TIC" [5]="GULF REGION" [6]="High Tech TIC" [7]="Insurance" [8]="NEOCC" [9]="OSINT News & Other Reports" [10]="OSINT Threat Reports" [11]="OSINT Vulnerability Reports" [12]="RANSOMEWARE SEA" [13]="Retail and Hospitality TIC" [14]="SEA-ISAC" [15]="TITAN" [16]="Twitter - APT" [17]="Twitter - Compromised Accounts" [18]="Twitter - Compromised Sites" [19]="Twitter - Malware" [20]="Twitter - Social Engineering & Phishing", [21]="UIS-TC" [22]="Anomali Curated OSINT" [23]="Anomali Labs Premium" [24]="Sixgill Darkfeed Freemium")
+
+
+declare -A threshold
+threshold['bot_ip']=100
+threshold['brute_ip']=100
+threshold['c2_domain']=20
+threshold['c2_ip']=20
+threshold['c2_url']=20
+threshold['compromised_ip']=50
+threshold['exploit_ip']=20
+threshold['fraud_domain']=20
+threshold['fraud_email']=20
+threshold['fraud_url']=20
+threshold['mal_domain']=20
+threshold['mal_email']=30
+threshold['mal_ip']=50
+threshold['mal_md5']=30
+threshold['mal_url']=20
+threshold['phish_domain']=50
+threshold['phish_email']=30
+threshold['phish_md5']=30
+threshold['phish_url']=100
+threshold['scan_ip']=100
+threshold['spam_ip']=300
 
 
 finance_keyword=("banking" "bank")
 energy_keyword=("energy")
 
+
+recipient="phamnhuthehuy@gmail.com"
 
 
 num_source=24
@@ -65,23 +93,6 @@ echo "===========================************=============================="
 
 
 
-function check_directory {
-	#check current dicectory of this working script itself
-	dir="$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)/$1"
-	if [[ -d "$dir" ]]
-	then
-	    	echo ""
-	else
-		if [[ $1 = *"."* ]]; then
-			touch $dir
-		else
-			mkdir $dir
-		fi
-	fi
-}
-
-
-
 PROGRESS_BAR_WIDTH=50  # progress bar length in characters
 
 function draw_progress_bar {
@@ -106,17 +117,21 @@ function draw_progress_bar {
 
 
 
-
-
-function list_trusted_circle {
-	counter=1
-	echo "STT	ID		Name"
-	while [[ $counter -le $num_source ]]; do
-		echo "$counter	${trusted_circles[$(($counter-1))]}		${name[$counter]}"
-		let counter+=1
-	done
-	
+function check_directory {
+	#check current dicectory of this working script itself
+	dir="$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)/$1"
+	if [[ -d "$dir" ]]
+	then
+	    	echo ""
+	else
+		if [[ $1 = *"."* ]]; then
+			touch $dir
+		else
+			mkdir $dir
+		fi
+	fi
 }
+
 
 
 function total_count {
@@ -128,9 +143,53 @@ function total_count {
 }
 
 
+function containsElement { # check if a string contains value of an array
+	  local e match="$1"
+	  shift
+	  for e ; do  [[ $match = *"$e"* ]] && return 1; done
+	  return 0
+}
 
 
-function automate {
+function fetching_config {
+	echo ""	
+}
+
+
+
+#========================================
+
+function automation {
+	# retrieving ioc from threatstream
+	retrieving_ioc
+	retrieved_dir=$dir
+	day_retrieve=$d
+	# reporting
+	convert_to_csv $retrieved_dir $day_retrieve
+	import_dir=$p_dir
+	
+	#extracting ioc file
+	extract_ioc_for_notification $retrieved_dir
+	extracting_ioc_dir=$ext_file
+	
+	# notificating
+	notificating $extracting_ioc_dir
+	
+	# cleaning extracting file
+	rm -f $extracting_ioc_dir
+	
+	# cleaning Retrieved_TI directory
+	rm -d -r $retrieved_dir	
+	
+	# importing
+	import $p_dir
+	
+	#cleaning import directory
+	rm -d -r $import_dir
+}
+
+
+function retrieving_ioc {
 	dir_name="retrieved_TI_$(TZ=Asia/Ho_Chi_Minh date +'%F')"
 	check_directory $dir_name
 	echo "How long?"
@@ -138,8 +197,6 @@ function automate {
 	date=$(TZ=America/Danmarkshavn date +'%FT%T' --date="+$d days ago")
 	echo "Enter search keyword for filtering?"
 	read keyword
-	# retrieving
-	
 	counter=1
 	while [[ $counter -le "${#name[@]}" ]]; do
 		f_name="$dir/$counter.json"
@@ -153,23 +210,11 @@ function automate {
 		echo ""
 		let counter+=1
 	done
-	# reporting
-	convert_to_csv $dir $d
-	# importing
-	import $p_dir
-	
-}
-
-
-function sending_mail {
-		
 }
 
 
 
 function import { #under construction
-
-	
 	for filename in $1/*.csv; do
 		if [[ ! -e $filename ]]; then continue; fi
 		if [[ $filename = *"gov"* ]]; then
@@ -182,16 +227,30 @@ function import { #under construction
 		type=$(echo $filename | cut -f6 -d\/ | cut -f3 -d\_)
 		curl -X POST "$import_url"  -F "classification=private" -F "confidence=50" -F "file=@$filename" -F "threat_type=$type" -F "trustedcircles=$id"  -H "$header"
 	done
-	# cleaning import directory
-	rm -d -r $1
 }
 
 
-containsElement () { # check if a string contains value of an array
-  local e match="$1"
-  shift
-  for e ; do  [[ $match = *"$e"* ]] && return 1; done
-  return 0
+
+function extract_ioc_for_notification {
+	# preparing directory for extracting fle
+	dir="$(cd -P -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
+	ext_file=$dir"/extracting_ioc.txt"
+	if [[ ! -f  $ext_file ]]; then
+		touch $ext_file
+	fi
+	# extracting
+	cat $1"/"* | jq '.objects[] .itype'|cut -f2 -d\"  | sort | uniq -c  | awk -F " " '{print $2","$1}' > $ext_file
+}
+
+
+function notificating {
+	notification=$(while IFS=',' read -r key value
+			do
+			     if [[ $value -ge ${threshold[$key]} ]]; then 
+				echo "<p style='font-size:50px;color:red;'>Number of $key today is $value, Please check report for more details</p>" 
+			     fi
+			done < $1)
+	sending_email $notification
 }
 
 
@@ -207,9 +266,9 @@ function convert_to_csv { # iterating all json file from given directory
 	f_name="report_$(TZ=Asia/Ho_Chi_Minh date +'%F' --date="+$2 days ago")_to_$(TZ=Asia/Ho_Chi_Minh date +'%F').csv"
 	
 	check_directory $f_name
-	dir1=$dir
+	report_dir=$dir
 	
-	echo "No,Type,Threat_type,Itype,Status,Value,Severity,IOC_type,ThreatScore,Created_ts,Organization,Confidence,Source_reported_confidence" >> $dir1
+	echo "No,Type,Threat_type,Itype,Status,Value,Severity,IOC_type,ThreatScore,Created_ts,Organization,Confidence,Source_reported_confidence" >> $report_dir
 	
 	for filename in $1/*.json; do
 		if [[ ! -e "$filename" ]]; then continue; fi
@@ -229,6 +288,8 @@ function convert_to_csv { # iterating all json file from given directory
 			org=$(echo $obj | jq .org | cut -f2 -d\")
 			confidence=$(echo $obj | jq .confidence)
 			s_conf=$(echo $obj | jq .source_reported_confidence)
+			
+			
 			containsElement "$tags,$value" "${finance_keyword[@]}"
 			fin=$?
 			containsElement "$value,$value" "${energy_keyword[@]}"
@@ -243,7 +304,7 @@ function convert_to_csv { # iterating all json file from given directory
 			fi
 			
 			# for reporting
-			echo $(($counter+1))","$type","$threat_type","$itype","$status","$value","$severity","$suffix","$threat_score","$created_ts","$org","$confidence","$s_conf >> $dir1
+			echo $(($counter+1))","$type","$threat_type","$itype","$status","$value","$severity","$suffix","$threat_score","$created_ts","$org","$confidence","$s_conf >> $report_dir
 			# creating structure file for importing
 			if [[ $itype =  *"bot"* ]]; then
 				f=$p_dir"/import_$(TZ=Asia/Ho_Chi_Minh date +'%F')_bot_$suffix.csv"
@@ -325,10 +386,56 @@ function convert_to_csv { # iterating all json file from given directory
 		done
 	done
 	echo "Done!"
-	echo "[$dir1] has been created successfully!"
-	echo "====================================================================="
-	# cleaning retrieved TI directory
-	rm -d -r $i
+	echo "[$report_dir] has been created successfully!"
+	echo "====================================================================="	
+	
+}
+
+
+function sending_email {
+	table1=$(while IFS=',' read key value
+		do
+			printf "<tr>\n  <th> $key </th>\n  <td>$value</td>\n</tr>\n" 
+		done < "/home/thehuy/Desktop/report.txt")
+	
+	mail_header="To: $recipient
+		Mime-Version: 1.0
+		Subject: Test HTML e-mail.
+		Content-Type: text/html; charset=iso-8859-1"
+	
+	
+	template=$mail_header"
+			<body style='margin: 0; padding: 0;'>
+				 <table align='center' border='1' cellpadding='0' cellspacing='0' width='600'>
+					 <tr>
+						  <td align='center' bgcolor='#6E33FF' style='padding: 40px 0 30px 0;'  >
+							<img src='https://vcyber.io/img/vcyber-logo.png' width='200' height='70' style='display: block;' />
+						  </td>
+					 </tr>
+					 <tr>
+						  <td bgcolor='#ffffff'>
+							$1
+						  </td>
+					 </tr>
+					 <tr>
+						  <td bgcolor='#ee4c50'>
+						   	<table border='1' cellpadding='0' cellspacing='0' style='padding; width: 100%;' >
+								<thead>
+									<tr>
+										<th>Itype</th>
+										<th>Number of IOC</th>
+									</tr>
+								</thead>
+								<tbody align='center'>
+									$table1
+								</tbody>
+							</table>
+						  </td>
+					 </tr>
+				</table>
+			</body>"
+
+	echo $template | sendmail -t 
 }
 
 

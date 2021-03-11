@@ -54,7 +54,7 @@ threshold['phish_domain']=50
 threshold['phish_email']=30
 threshold['phish_md5']=30
 threshold['phish_url']=100
-threshold['scan_ip']=100
+threshold['scan_ip']=1
 threshold['spam_ip']=300
 
 
@@ -152,7 +152,7 @@ function containsElement { # check if a string contains value of an array
 
 
 function fetching_config {
-	echo ""	
+	echo ""		
 }
 
 
@@ -161,31 +161,33 @@ function fetching_config {
 
 function automation {
 	# retrieving ioc from threatstream
-	retrieving_ioc
-	retrieved_dir=$dir
-	day_retrieve=$d
+	#retrieving_ioc
+	#retrieved_dir=$dir
+	#day_retrieve=$d
 	# reporting
-	convert_to_csv $retrieved_dir $day_retrieve
-	import_dir=$p_dir
+	#convert_to_csv $retrieved_dir $day_retrieve
+	#import_dir=$p_dir
 	
 	#extracting ioc file
-	extract_ioc_for_notification $retrieved_dir
-	extracting_ioc_dir=$ext_file
-	
+	#extract_ioc_for_notification $retrieved_dir
+	#extracting_ioc_dir=$ext_file
+	extracting_ioc_dir="/home/thehuy/Desktop/report.txt"
 	# notificating
 	notificating $extracting_ioc_dir
 	
-	# cleaning extracting file
-	rm -f $extracting_ioc_dir
+	
 	
 	# cleaning Retrieved_TI directory
-	rm -d -r $retrieved_dir	
+	#rm -d -r $retrieved_dir	
 	
 	# importing
-	import $p_dir
+	#import $p_dir
 	
 	#cleaning import directory
-	rm -d -r $import_dir
+	#rm -d -r $import_dir
+	
+	# cleaning extracting file
+	#rm -f $extracting_ioc_dir
 }
 
 
@@ -247,10 +249,11 @@ function notificating {
 	notification=$(while IFS=',' read -r key value
 			do
 			     if [[ $value -ge ${threshold[$key]} ]]; then 
-				echo "<p style='font-size:50px;color:red;'>Number of $key today is $value, Please check report for more details</p>" 
+				echo "<p>Number of $key today is $value IOCs, Please check report for more details</p>" 
 			     fi
 			done < $1)
-	sending_email $notification
+
+	sending_email "$notification" $1
 }
 
 
@@ -381,7 +384,6 @@ function convert_to_csv { # iterating all json file from given directory
 			fi	
 			converted_obj=$(($counter+1))
 			draw_progress_bar $converted_obj $num "obj"
-			sleep 1
 			let counter+=1
 		done
 	done
@@ -396,46 +398,43 @@ function sending_email {
 	table1=$(while IFS=',' read key value
 		do
 			printf "<tr>\n  <th> $key </th>\n  <td>$value</td>\n</tr>\n" 
-		done < "/home/thehuy/Desktop/report.txt")
-	
-	mail_header="To: $recipient
-		Mime-Version: 1.0
-		Subject: Test HTML e-mail.
-		Content-Type: text/html; charset=iso-8859-1"
-	
-	
-	template=$mail_header"
-			<body style='margin: 0; padding: 0;'>
-				 <table align='center' border='1' cellpadding='0' cellspacing='0' width='600'>
-					 <tr>
-						  <td align='center' bgcolor='#6E33FF' style='padding: 40px 0 30px 0;'  >
-							<img src='https://vcyber.io/img/vcyber-logo.png' width='200' height='70' style='display: block;' />
-						  </td>
-					 </tr>
-					 <tr>
-						  <td bgcolor='#ffffff'>
-							$1
-						  </td>
-					 </tr>
-					 <tr>
-						  <td bgcolor='#ee4c50'>
-						   	<table border='1' cellpadding='0' cellspacing='0' style='padding; width: 100%;' >
-								<thead>
-									<tr>
-										<th>Itype</th>
-										<th>Number of IOC</th>
-									</tr>
-								</thead>
-								<tbody align='center'>
-									$table1
-								</tbody>
-							</table>
-						  </td>
-					 </tr>
-				</table>
-			</body>"
+		done < $2)
 
-	echo $template | sendmail -t 
+(echo "To: $recipient"
+echo "Mime-Version: 1.0"
+echo "Subject: Test HTML e-mail."
+echo "Content-Type: text/html"
+echo ""
+echo "<html><body style='margin: 0; padding: 0;'>"
+echo  "<table align='center' border='1' cellpadding='0' cellspacing='0' width='600'>"
+echo " <tr>"
+echo "	  <td align='center' bgcolor='#6E33FF' style='padding: 40px 0 30px 0;'  >"
+echo "		<img src='https://vcyber.io/img/vcyber-logo.png' width='200' height='70' style='display: block;' />"
+echo "	  </td>"
+echo " </tr>"
+echo " <tr>"
+echo "	  <td bgcolor='#ffffff'>"
+echo "		${1}"
+echo " 	  </td>"
+echo "</tr>"
+echo "<tr>"
+echo "	  <td bgcolor='#ee4c50'>"
+echo "	  	<table border='1' cellpadding='0' cellspacing='0' style='padding; ' align='center' width='100%';>"
+echo "			<thead width='100%';>"
+echo "				<tr>"
+echo "					<th>Itype</th>"
+echo "					<th>Number of IOC</th>"
+echo "				</tr>"
+echo "			</thead>"
+echo "			<tbody align='center' width='100%';>"
+echo "				$table1"
+echo "			</tbody>"
+echo "		</table> "
+echo "	  </td> "
+echo " </tr>"
+echo "</table>"
+echo "</body></html>" ) | sendmail -t
+
 }
 
 
@@ -459,7 +458,7 @@ read choice
 
 
 if [[ $choice -eq 1 ]]; then
-	automate
+	automation
 fi
 	
 

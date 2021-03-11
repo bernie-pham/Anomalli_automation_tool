@@ -1,0 +1,33 @@
+No,Type,Threat_type,Itype,Status,Value,Severity,IOC_type,ThreatScore,Created_ts,Organization,Confidence,Source_reported_confidence
+1,ip,scan,scan_ip,active,113.174.246.195,high,gov,35,2021-03-10,Vietnam Posts and Telecommunications(VNPT),100,70
+2,ip,scan,scan_ip,active,113.166.140.238,high,gov,34,2021-03-10,Vietnam Posts and Telecommunications(VNPT),95,70
+3,ip,scan,scan_ip,active,118.69.201.20,high,gov,9,2021-03-10,FPT Telecom Company,25,70
+4,ip,scan,scan_ip,active,171.249.233.201,high,gov,34,2021-03-10,Viettel Group,97,70
+5,ip,scan,scan_ip,active,171.237.204.47,high,gov,35,2021-03-10,Viettel Group,98,70
+6,ip,scan,scan_ip,active,171.225.248.242,high,gov,35,2021-03-10,Viettel Group,100,70
+7,ip,scan,scan_ip,active,103.130.212.82,high,gov,34,2021-03-10,,97,70
+8,ip,scan,scan_ip,active,103.75.180.242,high,gov,31,2021-03-10,CMC Telecom Infrastructure Company,86,70
+9,ip,scan,scan_ip,active,42.112.16.130,high,gov,17,2021-03-10,FPT Telecom Company,47,70
+10,ip,scan,scan_ip,active,14.162.181.154,high,gov,35,2021-03-10,Vietnam Posts and Telecommunications(VNPT),100,70
+No,Type,Threat_type,Itype,Status,Value,Severity,IOC_type,ThreatScore,Created_ts,Organization,Confidence,Source_reported_confidence
+1,ip,scan,scan_ip,active,113.174.246.195,high,gov,35,2021-03-10,Vietnam Posts and Telecommunications(VNPT),100,70
+2,ip,scan,scan_ip,active,113.166.140.238,high,gov,34,2021-03-10,Vietnam Posts and Telecommunications(VNPT),95,70
+3,ip,scan,scan_ip,active,118.69.201.20,high,gov,9,2021-03-10,FPT Telecom Company,25,70
+4,ip,scan,scan_ip,active,171.249.233.201,high,gov,34,2021-03-10,Viettel Group,97,70
+5,ip,scan,scan_ip,active,171.237.204.47,high,gov,35,2021-03-10,Viettel Group,98,70
+6,ip,scan,scan_ip,active,171.225.248.242,high,gov,35,2021-03-10,Viettel Group,100,70
+7,ip,scan,scan_ip,active,103.130.212.82,high,gov,34,2021-03-10,,97,70
+8,ip,scan,scan_ip,active,103.75.180.242,high,gov,31,2021-03-10,CMC Telecom Infrastructure Company,86,70
+9,ip,scan,scan_ip,active,42.112.16.130,high,gov,17,2021-03-10,FPT Telecom Company,47,70
+10,ip,scan,scan_ip,active,14.162.181.154,high,gov,35,2021-03-10,Vietnam Posts and Telecommunications(VNPT),100,70
+No,Type,Threat_type,Itype,Status,Value,Severity,IOC_type,ThreatScore,Created_ts,Organization,Confidence,Source_reported_confidence
+1,ip,scan,scan_ip,active,113.174.246.195,high,gov,35,2021-03-10,Vietnam Posts and Telecommunications(VNPT),100,70
+2,ip,scan,scan_ip,active,113.166.140.238,high,gov,34,2021-03-10,Vietnam Posts and Telecommunications(VNPT),95,70
+3,ip,scan,scan_ip,active,118.69.201.20,high,gov,9,2021-03-10,FPT Telecom Company,25,70
+4,ip,scan,scan_ip,active,171.249.233.201,high,gov,34,2021-03-10,Viettel Group,97,70
+5,ip,scan,scan_ip,active,171.237.204.47,high,gov,35,2021-03-10,Viettel Group,98,70
+6,ip,scan,scan_ip,active,171.225.248.242,high,gov,35,2021-03-10,Viettel Group,100,70
+7,ip,scan,scan_ip,active,103.130.212.82,high,gov,34,2021-03-10,,97,70
+8,ip,scan,scan_ip,active,103.75.180.242,high,gov,31,2021-03-10,CMC Telecom Infrastructure Company,86,70
+9,ip,scan,scan_ip,active,42.112.16.130,high,gov,17,2021-03-10,FPT Telecom Company,47,70
+10,ip,scan,scan_ip,active,14.162.181.154,high,gov,35,2021-03-10,Vietnam Posts and Telecommunications(VNPT),100,70

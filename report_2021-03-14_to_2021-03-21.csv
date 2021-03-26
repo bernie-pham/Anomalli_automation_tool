@@ -1,0 +1,1003 @@
+No,Type,Threat_type,Itype,Status,Value,Severity,IOC_type,ThreatScore,Created_ts,Organization,Confidence,Source_reported_confidence
+1,url,malware,mal_url,active,http://landing.kofacins.com/pack/,high,gov,57,2021-03-16,FPT Telecom Company,71,100
+1,url,phish,phish_url,active,https://dongnammedia.com.vn/wp-content/plugins/ds/prepaid.bankofamerica.com/prepaid.bankofamerica.com/eddcard/Verify/signinpassword.html,very-high,finance,71,2021-03-21,Long Van System Solution JSC,88,60
+2,url,phish,phish_url,active,http://dongnammedia.com.vn/wp-content/plugins/ds/prepaid.bankofamerica.com/prepaid.bankofamerica.com/eddcard/Verify,very-high,finance,71,2021-03-21,Long Van System Solution JSC,88,60
+3,ip,scan,scan_ip,active,171.235.198.150,high,gov,34,2021-03-21,Viettel Group,97,70
+4,ip,scan,scan_ip,active,14.178.217.232,medium,gov,25,2021-03-21,Vietnam Posts And Telecommunications Group,70,50
+5,ip,scan,scan_ip,active,14.179.74.160,medium,gov,33,2021-03-21,Vietnam Posts And Telecommunications Group,94,50
+6,ip,scan,scan_ip,active,123.30.96.254,high,gov,17,2021-03-21,Vietnam Posts and Telecommunications(VNPT),46,70
+7,ip,scan,scan_ip,active,123.18.166.75,high,gov,32,2021-03-21,Vietnam Posts and Telecommunications(VNPT),90,70
+8,ip,scan,scan_ip,active,116.97.243.34,high,gov,30,2021-03-21,Viettel Group,85,70
+9,ip,scan,scan_ip,active,103.125.189.133,high,gov,35,2021-03-21,,98,70
+10,ip,scan,scan_ip,active,103.124.94.33,high,gov,25,2021-03-21,,71,70
+11,ip,scan,scan_ip,active,171.242.24.201,high,gov,34,2021-03-21,Viettel Group,97,70
+12,ip,scan,scan_ip,active,103.155.82.111,high,gov,35,2021-03-21,,100,70
+13,ip,scan,scan_ip,active,14.189.252.202,high,gov,27,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,70
+14,ip,scan,scan_ip,active,14.166.47.196,high,gov,35,2021-03-21,Vietnam Posts and Telecommunications(VNPT),100,70
+15,ip,scan,scan_ip,active,14.241.64.93,high,gov,35,2021-03-21,Vietnam Posts and Telecommunications(VNPT),99,70
+16,ip,scan,scan_ip,active,113.161.93.142,high,gov,32,2021-03-21,Vietnam Posts and Telecommunications(VNPT),91,70
+17,ip,scan,scan_ip,active,113.161.32.237,high,gov,35,2021-03-21,Vietnam Posts and Telecommunications(VNPT),100,70
+18,url,malware,mal_url,active,http://115.76.91.23:61967/.i,low,gov,36,2021-03-21,Viettel Group,44,75
+19,url,phish,phish_url,active,https://dongnammedia.com.vn/wp-content/plugins/ds/prepaid.bankofamerica.com/prepaid.bankofamerica.com/eddcard/Verify/signinpassword.html,high,finance,48,2021-03-21,Long Van System Solution JSC,60,40
+20,url,phish,phish_url,active,http://dongnammedia.com.vn/wp-content/plugins/ds/prepaid.bankofamerica.com/prepaid.bankofamerica.com/eddcard/Verify,high,finance,49,2021-03-21,Long Van System Solution JSC,61,43
+21,ip,spam,spam_ip,active,42.119.159.163,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+22,ip,spam,spam_ip,active,123.24.47.217,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+23,ip,spam,spam_ip,active,123.18.124.142,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),96,60
+24,ip,spam,spam_ip,active,117.4.247.233,low,gov,17,2021-03-21,Viettel Group,68,60
+25,ip,spam,spam_ip,active,14.182.98.142,low,gov,18,2021-03-21,Vietnam Posts and Telecommunications(VNPT),69,60
+26,ip,spam,spam_ip,active,1.55.250.3,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+27,ip,spam,spam_ip,active,113.170.233.153,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+28,ip,spam,spam_ip,active,171.229.142.127,low,gov,25,2021-03-21,Viettel Group,97,60
+29,ip,spam,spam_ip,active,171.225.132.172,low,gov,25,2021-03-21,Viettel Group,100,60
+30,ip,spam,spam_ip,active,14.180.202.89,low,gov,24,2021-03-21,Vietnam Posts And Telecommunications Group,94,60
+31,ip,spam,spam_ip,active,113.167.14.221,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+32,ip,spam,spam_ip,active,171.241.117.87,low,gov,25,2021-03-21,Viettel Group,97,60
+33,ip,spam,spam_ip,active,1.54.252.110,low,gov,25,2021-03-21,FPT Telecom Company,98,60
+34,ip,spam,spam_ip,active,103.199.36.85,low,gov,18,2021-03-21,MOBIFONE Corporation,72,60
+35,ip,spam,spam_ip,active,171.224.179.211,low,gov,23,2021-03-21,Viettel Group,91,60
+36,ip,spam,spam_ip,active,14.169.7.26,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+37,ip,spam,spam_ip,active,116.109.69.74,low,gov,24,2021-03-21,Viettel Corporation,95,60
+38,ip,spam,spam_ip,active,42.113.183.180,low,gov,25,2021-03-21,FPT Telecom Company,98,60
+39,ip,spam,spam_ip,active,42.114.142.187,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+40,ip,spam,spam_ip,active,171.247.240.156,low,gov,22,2021-03-21,Viettel Group,85,60
+41,ip,spam,spam_ip,active,14.232.54.162,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+42,ip,spam,spam_ip,active,14.228.188.202,low,gov,18,2021-03-21,Vietnam Posts and Telecommunications(VNPT),69,60
+43,ip,spam,spam_ip,active,42.114.121.244,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+44,ip,spam,spam_ip,active,14.243.26.140,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),96,60
+45,ip,spam,spam_ip,active,1.52.172.40,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+46,ip,spam,spam_ip,active,42.119.10.9,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+47,ip,spam,spam_ip,active,118.71.115.85,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+48,ip,spam,spam_ip,active,14.170.120.204,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+49,ip,spam,spam_ip,active,1.53.12.105,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+50,ip,spam,spam_ip,active,171.254.227.144,low,gov,22,2021-03-21,Viettel Group,87,60
+51,ip,spam,spam_ip,active,115.73.223.180,low,gov,22,2021-03-21,Viettel Group,87,60
+52,ip,spam,spam_ip,active,42.118.115.209,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+53,ip,spam,spam_ip,active,113.188.87.151,low,gov,17,2021-03-21,Vietnam Posts and Telecommunications(VNPT),66,60
+54,ip,spam,spam_ip,active,14.162.158.254,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+55,ip,spam,spam_ip,active,14.248.126.15,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+56,ip,spam,spam_ip,active,113.174.119.241,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+57,ip,spam,spam_ip,active,14.162.209.62,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+58,ip,spam,spam_ip,active,14.232.34.15,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+59,ip,spam,spam_ip,active,171.242.28.179,low,gov,24,2021-03-21,Viettel Group,95,60
+60,ip,spam,spam_ip,active,117.1.193.191,low,gov,25,2021-03-21,Viettel Group,97,60
+61,ip,spam,spam_ip,active,14.232.234.113,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+62,ip,spam,spam_ip,active,14.190.119.116,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),86,60
+63,ip,spam,spam_ip,active,27.76.109.61,low,gov,25,2021-03-21,Viettel Group,97,60
+64,ip,spam,spam_ip,active,116.102.47.6,low,gov,25,2021-03-21,Viettel Corporation,100,60
+65,ip,spam,spam_ip,active,58.186.197.154,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+66,ip,spam,spam_ip,active,115.73.4.94,low,gov,22,2021-03-21,Viettel Group,87,60
+67,ip,spam,spam_ip,active,27.76.220.6,low,gov,25,2021-03-21,Viettel Group,100,60
+68,ip,spam,spam_ip,active,113.183.41.245,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+69,ip,spam,spam_ip,active,123.24.66.224,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+70,ip,spam,spam_ip,active,14.184.163.145,low,gov,21,2021-03-21,Vietnam Posts and Telecommunications(VNPT),83,60
+71,ip,spam,spam_ip,active,103.249.23.23,low,gov,18,2021-03-21,,72,60
+72,ip,spam,spam_ip,active,117.7.146.131,low,gov,24,2021-03-21,Viettel Group,95,60
+73,ip,spam,spam_ip,active,113.179.186.200,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+74,ip,spam,spam_ip,active,222.252.83.205,low,gov,16,2021-03-21,Vietnam Posts and Telecommunications(VNPT),63,60
+75,ip,spam,spam_ip,active,183.80.85.76,low,gov,25,2021-03-21,FPT Telecom,100,60
+76,ip,spam,spam_ip,active,14.252.176.68,low,gov,24,2021-03-21,Vietnam Posts And Telecommunications Group,95,60
+77,ip,spam,spam_ip,active,123.21.191.131,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+78,ip,spam,spam_ip,active,123.21.142.251,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+79,ip,spam,spam_ip,active,171.247.202.137,low,gov,23,2021-03-21,Viettel Group,91,60
+80,ip,spam,spam_ip,active,171.232.23.109,low,gov,24,2021-03-21,Viettel Group,96,60
+81,ip,spam,spam_ip,active,171.234.98.198,low,gov,25,2021-03-21,Viettel Group,97,60
+82,ip,spam,spam_ip,active,113.163.167.234,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),97,60
+83,ip,spam,spam_ip,active,171.241.15.108,low,gov,25,2021-03-21,Viettel Group,97,60
+84,ip,spam,spam_ip,active,27.3.200.202,low,gov,22,2021-03-21,SaiGon Tourist cable Televition Company,88,60
+85,ip,spam,spam_ip,active,14.243.78.93,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),92,60
+86,ip,spam,spam_ip,active,14.248.135.190,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),91,60
+87,ip,spam,spam_ip,active,14.169.92.17,low,gov,21,2021-03-21,Vietnam Posts and Telecommunications(VNPT),83,60
+88,ip,spam,spam_ip,active,113.181.14.120,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),80,60
+89,ip,spam,spam_ip,active,14.244.154.224,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),93,60
+90,ip,spam,spam_ip,active,171.252.155.33,low,gov,22,2021-03-21,Viettel Group,87,60
+91,ip,spam,spam_ip,active,123.27.202.103,low,gov,19,2021-03-21,Vietnam Posts and Telecommunications(VNPT),76,60
+92,ip,spam,spam_ip,active,171.233.200.74,low,gov,11,2021-03-21,Viettel Group,44,60
+93,ip,spam,spam_ip,active,116.96.160.25,low,gov,24,2021-03-21,Viettel Group,95,60
+94,ip,spam,spam_ip,active,14.226.250.77,low,gov,21,2021-03-21,Vietnam Posts and Telecommunications(VNPT),81,60
+95,ip,spam,spam_ip,active,58.186.59.12,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+96,ip,spam,spam_ip,active,113.174.232.200,low,gov,18,2021-03-21,Vietnam Posts and Telecommunications(VNPT),69,60
+97,ip,spam,spam_ip,active,113.23.43.111,low,gov,23,2021-03-21,FPT Telecom Company,90,60
+98,ip,spam,spam_ip,active,113.166.231.73,low,gov,18,2021-03-21,Vietnam Posts and Telecommunications(VNPT),69,60
+99,ip,spam,spam_ip,active,171.251.236.78,low,gov,25,2021-03-21,Viettel Group,100,60
+100,ip,spam,spam_ip,active,27.71.82.74,low,gov,24,2021-03-21,Viettel Group,93,60
+101,ip,spam,spam_ip,active,171.252.170.82,low,gov,25,2021-03-21,Viettel Group,100,60
+102,ip,spam,spam_ip,active,115.77.219.249,low,gov,8,2021-03-21,Viettel Group,29,60
+103,ip,spam,spam_ip,active,117.2.239.115,low,gov,25,2021-03-21,Viettel Group,99,60
+104,ip,spam,spam_ip,active,27.73.104.237,low,gov,25,2021-03-21,Viettel Group,97,60
+105,ip,spam,spam_ip,active,103.238.83.150,low,gov,22,2021-03-21,Cloudone Technology Company Limited,85,60
+106,ip,spam,spam_ip,active,171.241.192.233,low,gov,22,2021-03-21,Viettel Group,86,60
+107,ip,spam,spam_ip,active,27.78.115.189,low,gov,22,2021-03-21,Viettel Group,87,60
+108,ip,spam,spam_ip,active,42.114.151.14,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+109,ip,spam,spam_ip,active,1.53.199.135,low,gov,19,2021-03-21,FPT Telecom Company,76,60
+110,ip,spam,spam_ip,active,14.188.182.90,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),99,60
+111,ip,spam,spam_ip,active,14.249.80.77,low,gov,19,2021-03-21,Vietnam Posts And Telecommunications Group,76,60
+112,ip,spam,spam_ip,active,123.21.251.121,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+113,ip,spam,spam_ip,active,42.116.190.13,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+114,ip,spam,spam_ip,active,58.186.62.191,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+115,ip,spam,spam_ip,active,42.113.159.96,low,gov,25,2021-03-21,FPT Telecom Company,98,60
+116,ip,spam,spam_ip,active,14.250.54.91,low,gov,13,2021-03-21,Vietnam Posts And Telecommunications Group,50,60
+117,ip,spam,spam_ip,active,113.163.5.87,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+118,ip,spam,spam_ip,active,14.181.44.137,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),96,60
+119,ip,spam,spam_ip,active,14.255.15.50,low,gov,7,2021-03-21,Vietnam Posts And Telecommunications Group,28,60
+120,ip,spam,spam_ip,active,118.71.78.21,low,gov,25,2021-03-21,FPT Telecom Company,98,60
+121,ip,spam,spam_ip,active,27.71.82.35,low,gov,24,2021-03-21,Viettel Group,93,60
+122,ip,spam,spam_ip,active,42.116.149.248,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+123,ip,spam,spam_ip,active,115.72.77.9,low,gov,25,2021-03-21,Viettel Group,98,60
+124,ip,spam,spam_ip,active,42.118.55.254,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+125,ip,spam,spam_ip,active,123.24.67.82,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+126,ip,spam,spam_ip,active,59.153.253.50,low,gov,24,2021-03-21,MOBIFONE Corporation,96,60
+127,ip,spam,spam_ip,active,115.75.243.251,low,gov,22,2021-03-21,Viettel Group,87,60
+128,ip,spam,spam_ip,active,14.251.66.120,low,gov,18,2021-03-21,Vietnam Posts And Telecommunications Group,71,60
+129,ip,spam,spam_ip,active,123.16.128.77,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+130,ip,spam,spam_ip,active,115.79.238.75,low,gov,23,2021-03-21,Viettel Group,90,60
+131,ip,spam,spam_ip,active,125.235.227.148,low,gov,22,2021-03-21,Viettel Group,85,60
+132,ip,spam,spam_ip,active,27.66.217.96,low,gov,25,2021-03-21,Viettel Group,100,60
+133,ip,spam,spam_ip,active,171.244.76.44,low,gov,25,2021-03-21,Viettel Group,98,60
+134,ip,spam,spam_ip,active,171.228.223.158,low,gov,25,2021-03-21,Viettel Group,100,60
+135,ip,spam,spam_ip,active,14.228.184.107,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),96,60
+136,ip,spam,spam_ip,active,42.113.203.73,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+137,ip,spam,spam_ip,active,222.254.9.111,low,gov,18,2021-03-21,Vietnam Posts and Telecommunications(VNPT),71,60
+138,ip,spam,spam_ip,active,14.186.5.167,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),100,60
+139,ip,spam,spam_ip,active,14.252.155.192,low,gov,22,2021-03-21,Vietnam Posts And Telecommunications Group,88,60
+140,ip,spam,spam_ip,active,123.28.113.208,low,gov,18,2021-03-21,Vietnam Posts and Telecommunications(VNPT),69,60
+141,ip,spam,spam_ip,active,171.251.235.61,low,gov,21,2021-03-21,Viettel Group,84,60
+142,ip,spam,spam_ip,active,113.173.85.168,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),100,60
+143,ip,spam,spam_ip,active,27.79.165.140,low,gov,25,2021-03-21,Viettel Group,97,60
+144,ip,spam,spam_ip,active,125.235.236.216,low,gov,25,2021-03-21,Viettel Group,100,60
+145,ip,spam,spam_ip,active,14.177.114.169,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+146,ip,spam,spam_ip,active,123.21.140.21,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+147,ip,spam,spam_ip,active,14.162.18.208,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+148,ip,spam,spam_ip,active,113.186.142.64,low,gov,17,2021-03-21,Vietnam Posts and Telecommunications(VNPT),66,60
+149,ip,spam,spam_ip,active,123.20.49.143,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+150,ip,spam,spam_ip,active,1.53.208.217,low,gov,25,2021-03-21,FPT Telecom Company,97,60
+151,ip,spam,spam_ip,active,14.234.90.234,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),78,60
+152,ip,spam,spam_ip,active,1.55.1.50,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+153,ip,spam,spam_ip,active,113.174.162.51,low,gov,16,2021-03-21,Vietnam Posts and Telecommunications(VNPT),64,60
+154,ip,spam,spam_ip,active,1.54.4.77,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+155,ip,spam,spam_ip,active,113.187.181.172,low,gov,24,2021-03-21,Vietnam Posts And Telecommunications Group,94,60
+156,ip,spam,spam_ip,active,27.66.73.164,low,gov,25,2021-03-21,Viettel Group,100,60
+157,ip,spam,spam_ip,active,1.52.235.254,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+158,ip,spam,spam_ip,active,14.249.147.145,low,gov,18,2021-03-21,Vietnam Posts And Telecommunications Group,72,60
+159,ip,spam,spam_ip,active,115.75.239.76,low,gov,22,2021-03-21,Viettel Group,87,60
+160,ip,spam,spam_ip,active,125.212.157.183,low,gov,24,2021-03-21,Viettel Corporation,95,60
+161,ip,spam,spam_ip,active,123.16.243.222,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+162,ip,spam,spam_ip,active,123.20.216.42,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),98,60
+163,ip,spam,spam_ip,active,113.167.120.203,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),80,60
+164,ip,spam,spam_ip,active,171.242.99.19,low,gov,25,2021-03-21,Viettel Group,100,60
+165,ip,spam,spam_ip,active,1.53.8.200,low,gov,22,2021-03-21,FPT Telecom Company,88,60
+166,ip,spam,spam_ip,active,113.172.171.134,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),96,60
+167,ip,spam,spam_ip,active,171.236.130.22,low,gov,25,2021-03-21,Viettel Group,97,60
+168,ip,spam,spam_ip,active,222.252.107.231,low,gov,16,2021-03-21,Vietnam Posts and Telecommunications(VNPT),63,60
+169,ip,spam,spam_ip,active,14.167.236.60,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+170,ip,spam,spam_ip,active,14.177.160.185,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+171,ip,spam,spam_ip,active,117.7.150.186,low,gov,24,2021-03-21,Viettel Group,95,60
+172,ip,spam,spam_ip,active,113.178.32.186,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+173,ip,spam,spam_ip,active,123.22.246.245,low,gov,16,2021-03-21,Vietnam Posts and Telecommunications(VNPT),61,60
+174,ip,spam,spam_ip,active,103.207.38.190,low,gov,21,2021-03-21,Vietnam Posts and Telecommunications(VNPT),83,60
+175,ip,spam,spam_ip,active,14.248.196.136,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+176,ip,spam,spam_ip,active,123.27.240.36,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),80,60
+177,ip,spam,spam_ip,active,116.106.51.99,low,gov,25,2021-03-21,Viettel Corporation,97,60
+178,ip,spam,spam_ip,active,171.224.207.216,low,gov,25,2021-03-21,Viettel Group,100,60
+179,ip,spam,spam_ip,active,118.70.13.225,low,gov,15,2021-03-21,FPT Telecom Company,57,60
+180,ip,spam,spam_ip,active,116.96.78.14,low,gov,25,2021-03-21,Viettel Group,98,60
+181,ip,spam,spam_ip,active,113.185.75.195,low,gov,22,2021-03-21,Vietnam Posts And Telecommunications Group,86,60
+182,ip,spam,spam_ip,active,42.114.162.241,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+183,ip,spam,spam_ip,active,1.55.180.80,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+184,ip,spam,spam_ip,active,27.64.205.99,low,gov,22,2021-03-21,Viettel Group,87,60
+185,ip,spam,spam_ip,active,123.16.114.103,low,gov,21,2021-03-21,Vietnam Posts and Telecommunications(VNPT),83,60
+186,ip,spam,spam_ip,active,171.241.43.191,low,gov,25,2021-03-21,Viettel Group,97,60
+187,ip,spam,spam_ip,active,14.180.143.203,low,gov,19,2021-03-21,Vietnam Posts And Telecommunications Group,76,60
+188,ip,spam,spam_ip,active,42.113.220.142,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+189,ip,spam,spam_ip,active,113.188.50.68,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),96,60
+190,ip,spam,spam_ip,active,103.155.82.111,low,gov,25,2021-03-21,,100,60
+191,ip,spam,spam_ip,active,14.176.37.226,low,gov,13,2021-03-21,Vietnam Posts and Telecommunications(VNPT),50,60
+192,ip,spam,spam_ip,active,42.118.219.20,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+193,ip,spam,spam_ip,active,1.52.36.98,low,gov,20,2021-03-21,FPT Telecom,80,60
+194,ip,spam,spam_ip,active,1.55.43.100,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+195,ip,spam,spam_ip,active,123.28.119.243,low,gov,17,2021-03-21,Vietnam Posts and Telecommunications(VNPT),67,60
+196,ip,spam,spam_ip,active,113.180.81.214,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+197,ip,spam,spam_ip,active,123.17.119.37,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),91,60
+198,ip,spam,spam_ip,active,116.99.130.142,low,gov,25,2021-03-21,Viettel Corporation,100,60
+199,ip,spam,spam_ip,active,42.112.157.173,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+200,ip,spam,spam_ip,active,116.103.18.55,low,gov,25,2021-03-21,Viettel Corporation,100,60
+201,ip,spam,spam_ip,active,113.165.103.91,low,gov,19,2021-03-21,Vietnam Posts and Telecommunications(VNPT),76,60
+202,ip,spam,spam_ip,active,42.119.97.64,low,gov,25,2021-03-21,FPT Telecom Company,100,60
+203,ip,spam,spam_ip,active,171.224.5.134,low,gov,25,2021-03-21,Viettel Group,97,60
+204,ip,spam,spam_ip,active,171.240.62.239,low,gov,25,2021-03-21,Viettel Group,98,60
+205,ip,spam,spam_ip,active,14.184.47.36,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),86,60
+206,ip,spam,spam_ip,active,14.186.224.224,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),99,60
+207,ip,spam,spam_ip,active,14.232.236.164,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),99,60
+208,ip,spam,spam_ip,active,14.248.153.102,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+209,ip,spam,spam_ip,active,171.241.15.223,low,gov,19,2021-03-21,Viettel Group,73,60
+210,ip,spam,spam_ip,active,113.172.214.93,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+211,ip,spam,spam_ip,active,117.5.156.209,low,gov,25,2021-03-21,Viettel Group,100,60
+212,ip,spam,spam_ip,active,117.3.150.38,low,gov,25,2021-03-21,Viettel Group,100,60
+213,ip,spam,spam_ip,active,14.181.212.182,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+214,ip,spam,spam_ip,active,116.97.41.25,low,gov,24,2021-03-21,Viettel Group,96,60
+215,ip,spam,spam_ip,active,14.186.41.83,low,gov,18,2021-03-21,Vietnam Posts and Telecommunications(VNPT),71,60
+216,ip,spam,spam_ip,active,113.166.243.226,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),89,60
+217,ip,spam,spam_ip,active,14.244.101.162,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+218,ip,spam,spam_ip,active,14.164.131.115,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+219,ip,spam,spam_ip,active,123.20.215.85,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),93,60
+220,ip,spam,spam_ip,active,14.234.109.190,low,gov,18,2021-03-21,Vietnam Posts and Telecommunications(VNPT),71,60
+221,ip,spam,spam_ip,active,113.173.254.101,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+222,ip,spam,spam_ip,active,27.73.67.210,low,gov,24,2021-03-21,Viettel Group,94,60
+223,ip,spam,spam_ip,active,14.177.223.247,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+224,ip,spam,spam_ip,active,222.253.154.61,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),95,60
+225,ip,spam,spam_ip,active,171.242.31.75,low,gov,24,2021-03-21,Viettel Group,95,60
+226,ip,spam,spam_ip,active,14.231.220.108,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+227,ip,spam,spam_ip,active,113.172.17.164,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+228,ip,spam,spam_ip,active,123.24.153.61,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+229,ip,spam,spam_ip,active,14.231.80.154,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+230,ip,spam,spam_ip,active,14.177.207.86,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+231,ip,spam,spam_ip,active,171.228.203.5,low,gov,25,2021-03-21,Viettel Group,100,60
+232,ip,spam,spam_ip,active,27.73.163.201,low,gov,25,2021-03-21,Viettel Group,100,60
+233,ip,spam,spam_ip,active,123.22.9.247,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),93,60
+234,ip,spam,spam_ip,active,14.169.215.138,low,gov,8,2021-03-21,Vietnam Posts and Telecommunications(VNPT),32,60
+235,ip,spam,spam_ip,active,14.162.185.78,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),96,60
+236,ip,spam,spam_ip,active,116.118.60.216,low,gov,21,2021-03-21,Saigon Postel Corporation,84,60
+237,ip,spam,spam_ip,active,116.111.12.194,low,gov,25,2021-03-21,Viettel Corporation,100,60
+238,ip,spam,spam_ip,active,27.70.212.251,low,gov,14,2021-03-21,Viettel Group,55,60
+239,ip,spam,spam_ip,active,113.172.240.83,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),100,60
+240,ip,spam,spam_ip,active,116.107.255.69,low,gov,25,2021-03-21,Viettel Group,97,60
+241,ip,spam,spam_ip,active,14.186.37.67,low,gov,21,2021-03-21,Vietnam Posts and Telecommunications(VNPT),81,60
+242,ip,spam,spam_ip,active,117.1.117.34,low,gov,25,2021-03-21,Viettel Group,97,60
+243,ip,spam,spam_ip,active,14.162.39.67,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+244,ip,spam,spam_ip,active,123.16.240.69,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+245,ip,spam,spam_ip,active,123.16.88.41,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),96,60
+246,ip,spam,spam_ip,active,123.24.87.24,low,gov,21,2021-03-21,Vietnam Posts and Telecommunications(VNPT),81,60
+247,ip,spam,spam_ip,active,103.99.3.17,low,gov,24,2021-03-21,Vpsonline,96,60
+248,ip,spam,spam_ip,active,116.98.55.152,low,gov,24,2021-03-21,Viettel Corporation,95,60
+249,ip,spam,spam_ip,active,45.122.233.76,low,gov,20,2021-03-21,CMC Telecom Infrastructure Company,80,60
+250,ip,spam,spam_ip,active,27.71.109.84,low,gov,11,2021-03-21,Viettel Group,44,60
+251,ip,spam,spam_ip,active,14.247.30.177,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+252,ip,spam,spam_ip,active,1.52.127.14,low,gov,21,2021-03-21,FPT Telecom Company,81,60
+253,ip,spam,spam_ip,active,202.43.110.42,low,gov,17,2021-03-21,DTS Communication Technologies Corporation,66,60
+254,ip,spam,spam_ip,active,117.0.90.149,low,gov,23,2021-03-21,Viettel Group,89,60
+255,ip,spam,spam_ip,active,27.71.122.173,low,gov,25,2021-03-21,Viettel Group,100,60
+256,ip,spam,spam_ip,active,113.160.150.74,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),91,60
+257,ip,spam,spam_ip,active,118.70.49.143,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+258,ip,spam,spam_ip,active,118.68.40.3,low,gov,19,2021-03-21,FPT Telecom Company,76,60
+259,ip,spam,spam_ip,active,171.242.94.93,low,gov,24,2021-03-21,Viettel Group,95,60
+260,ip,spam,spam_ip,active,1.54.129.20,low,gov,25,2021-03-21,FPT Telecom Company,98,60
+261,ip,spam,spam_ip,active,222.252.53.217,low,gov,16,2021-03-21,Vietnam Posts and Telecommunications(VNPT),63,60
+262,ip,spam,spam_ip,active,113.181.216.85,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),91,60
+263,ip,spam,spam_ip,active,125.235.227.122,low,gov,22,2021-03-21,Viettel Group,85,60
+264,ip,spam,spam_ip,active,115.76.71.70,low,gov,25,2021-03-21,Viettel Group,97,60
+265,ip,spam,spam_ip,active,123.22.57.31,low,gov,16,2021-03-21,Vietnam Posts and Telecommunications(VNPT),61,60
+266,ip,spam,spam_ip,active,171.240.40.178,low,gov,23,2021-03-21,Viettel Group,92,60
+267,ip,spam,spam_ip,active,14.169.158.211,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+268,ip,spam,spam_ip,active,14.250.156.132,low,gov,23,2021-03-21,Vietnam Posts And Telecommunications Group,91,60
+269,ip,spam,spam_ip,active,113.188.51.142,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),96,60
+270,ip,spam,spam_ip,active,58.186.126.96,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+271,ip,spam,spam_ip,active,171.224.217.5,low,gov,23,2021-03-21,Viettel Group,92,60
+272,ip,spam,spam_ip,active,123.20.176.255,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+273,ip,spam,spam_ip,active,42.113.0.128,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+274,ip,spam,spam_ip,active,14.183.103.133,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),85,60
+275,ip,spam,spam_ip,active,171.245.59.248,low,gov,25,2021-03-21,Viettel Group,100,60
+276,ip,spam,spam_ip,active,14.180.224.45,low,gov,22,2021-03-21,Vietnam Posts And Telecommunications Group,86,60
+277,ip,spam,spam_ip,active,14.186.154.178,low,gov,21,2021-03-21,Vietnam Posts and Telecommunications(VNPT),81,60
+278,ip,spam,spam_ip,active,116.96.89.106,low,gov,22,2021-03-21,Viettel Group,86,60
+279,ip,spam,spam_ip,active,14.177.129.35,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+280,ip,spam,spam_ip,active,113.172.134.37,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+281,ip,spam,spam_ip,active,14.233.52.36,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),92,60
+282,ip,spam,spam_ip,active,14.163.209.110,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+283,ip,spam,spam_ip,active,123.21.164.59,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),98,60
+284,ip,spam,spam_ip,active,14.169.191.169,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),99,60
+285,ip,spam,spam_ip,active,222.252.38.225,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),97,60
+286,ip,spam,spam_ip,active,118.68.175.2,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+287,ip,spam,spam_ip,active,14.227.81.178,low,gov,10,2021-03-21,Vietnam Posts And Telecommunications Group,40,60
+288,ip,spam,spam_ip,active,42.117.111.243,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+289,ip,spam,spam_ip,active,123.20.63.30,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+290,ip,spam,spam_ip,active,58.186.99.7,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+291,ip,spam,spam_ip,active,113.182.191.49,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),95,60
+292,ip,spam,spam_ip,active,123.21.1.66,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),97,60
+293,ip,spam,spam_ip,active,14.169.141.159,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),97,60
+294,ip,spam,spam_ip,active,171.224.85.57,low,gov,25,2021-03-21,Viettel Group,97,60
+295,ip,spam,spam_ip,active,14.170.249.189,low,gov,16,2021-03-21,Vietnam Posts and Telecommunications(VNPT),61,60
+296,ip,spam,spam_ip,active,14.231.211.173,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),87,60
+297,ip,spam,spam_ip,active,42.118.218.93,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+298,ip,spam,spam_ip,active,123.16.118.20,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+299,ip,spam,spam_ip,active,222.252.51.168,low,gov,16,2021-03-21,Vietnam Posts and Telecommunications(VNPT),63,60
+300,ip,spam,spam_ip,active,27.73.75.101,low,gov,25,2021-03-21,Viettel Group,97,60
+301,ip,spam,spam_ip,active,123.21.30.170,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),99,60
+302,ip,spam,spam_ip,active,14.232.230.19,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+303,ip,spam,spam_ip,active,42.113.164.54,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+304,ip,spam,spam_ip,active,14.250.19.140,low,gov,11,2021-03-21,Vietnam Posts And Telecommunications Group,41,60
+305,ip,spam,spam_ip,active,171.246.132.167,low,gov,25,2021-03-21,Viettel Group,98,60
+306,ip,spam,spam_ip,active,123.21.219.195,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+307,ip,spam,spam_ip,active,171.236.139.50,low,gov,25,2021-03-21,Viettel Group,97,60
+308,ip,spam,spam_ip,active,14.162.130.110,low,gov,19,2021-03-21,Vietnam Posts and Telecommunications(VNPT),76,60
+309,ip,spam,spam_ip,active,45.122.255.65,low,gov,24,2021-03-21,Hai Phong Brand - CMC Telecommunication Infrastruc,95,60
+310,ip,spam,spam_ip,active,14.167.226.126,low,gov,17,2021-03-21,Vietnam Posts and Telecommunications(VNPT),67,60
+311,ip,spam,spam_ip,active,222.254.95.52,low,gov,19,2021-03-21,Vietnam Posts and Telecommunications(VNPT),73,60
+312,ip,spam,spam_ip,active,116.108.111.197,low,gov,25,2021-03-21,Viettel Corporation,100,60
+313,ip,spam,spam_ip,active,113.180.168.116,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),94,60
+314,ip,spam,spam_ip,active,14.232.182.14,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+315,ip,spam,spam_ip,active,113.178.61.96,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+316,ip,spam,spam_ip,active,116.98.230.252,low,gov,25,2021-03-21,Viettel Corporation,97,60
+317,ip,spam,spam_ip,active,117.5.152.78,low,gov,25,2021-03-21,Viettel Group,100,60
+318,ip,spam,spam_ip,active,27.71.122.49,low,gov,25,2021-03-21,Viettel Group,100,60
+319,ip,spam,spam_ip,active,42.118.145.109,low,gov,23,2021-03-21,FPT Telecom Company,91,60
+320,ip,spam,spam_ip,active,14.254.130.246,low,gov,7,2021-03-21,Vietnam Posts And Telecommunications Group,28,60
+321,ip,spam,spam_ip,active,123.20.24.67,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),98,60
+322,ip,spam,spam_ip,active,123.24.128.74,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+323,ip,spam,spam_ip,active,27.66.217.82,low,gov,25,2021-03-21,Viettel Group,100,60
+324,ip,spam,spam_ip,active,123.21.211.114,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+325,ip,spam,spam_ip,active,14.236.160.162,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),92,60
+326,ip,spam,spam_ip,active,117.6.3.246,low,gov,25,2021-03-21,Viettel Group,97,60
+327,ip,spam,spam_ip,active,123.28.214.219,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),86,60
+328,ip,spam,spam_ip,active,113.190.148.222,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),93,60
+329,ip,spam,spam_ip,active,171.252.188.213,low,gov,22,2021-03-21,Viettel Group,87,60
+330,ip,spam,spam_ip,active,123.21.124.61,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),100,60
+331,ip,spam,spam_ip,active,113.172.189.50,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),99,60
+332,ip,spam,spam_ip,active,113.168.231.41,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+333,ip,spam,spam_ip,active,171.237.77.227,low,gov,25,2021-03-21,Viettel Group,100,60
+334,ip,spam,spam_ip,active,116.102.47.158,low,gov,25,2021-03-21,Viettel Corporation,97,60
+335,ip,spam,spam_ip,active,117.7.160.115,low,gov,24,2021-03-21,Viettel Group,95,60
+336,ip,spam,spam_ip,active,123.18.157.139,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),94,60
+337,ip,spam,spam_ip,active,113.184.43.131,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+338,ip,spam,spam_ip,active,113.172.22.64,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+339,ip,spam,spam_ip,active,14.177.217.198,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+340,ip,spam,spam_ip,active,116.96.109.13,low,gov,25,2021-03-21,Viettel Group,100,60
+341,ip,spam,spam_ip,active,1.55.255.36,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+342,ip,spam,spam_ip,active,103.238.73.241,low,gov,18,2021-03-21,Hanoi Telecom Joint Stock Company - HCMC Branch,72,60
+343,ip,spam,spam_ip,active,103.238.73.236,low,gov,18,2021-03-21,Hanoi Telecom Joint Stock Company - HCMC Branch,72,60
+344,ip,spam,spam_ip,active,171.241.3.131,low,gov,25,2021-03-21,Viettel Group,97,60
+345,ip,spam,spam_ip,active,113.23.64.144,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+346,ip,spam,spam_ip,active,14.231.9.40,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+347,ip,spam,spam_ip,active,27.66.240.209,low,gov,19,2021-03-21,Viettel Group,75,60
+348,ip,spam,spam_ip,active,14.243.129.49,low,gov,21,2021-03-21,Vietnam Posts and Telecommunications(VNPT),82,60
+349,ip,spam,spam_ip,active,123.16.25.132,low,gov,13,2021-03-21,Vietnam Posts and Telecommunications(VNPT),52,60
+350,ip,spam,spam_ip,active,123.21.21.32,low,gov,9,2021-03-21,Vietnam Posts and Telecommunications(VNPT),34,60
+351,ip,spam,spam_ip,active,113.177.128.60,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+352,ip,spam,spam_ip,active,113.173.134.46,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+353,ip,spam,spam_ip,active,42.113.121.53,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+354,ip,spam,spam_ip,active,103.129.189.210,low,gov,25,2021-03-21,,97,60
+355,ip,spam,spam_ip,active,27.64.145.229,low,gov,25,2021-03-21,Viettel Group,100,60
+356,ip,spam,spam_ip,active,113.172.208.96,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),99,60
+357,ip,spam,spam_ip,active,113.162.180.19,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+358,ip,spam,spam_ip,active,171.240.62.246,low,gov,23,2021-03-21,Viettel Group,92,60
+359,ip,spam,spam_ip,active,123.21.22.244,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+360,ip,spam,spam_ip,active,14.176.22.137,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),91,60
+361,ip,spam,spam_ip,active,171.247.74.198,low,gov,16,2021-03-21,Viettel Group,63,60
+362,ip,spam,spam_ip,active,14.245.197.147,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),93,60
+363,ip,spam,spam_ip,active,14.255.123.49,low,gov,16,2021-03-21,Vietnam Posts And Telecommunications Group,62,60
+364,ip,spam,spam_ip,active,171.231.231.236,low,gov,25,2021-03-21,Viettel Group,100,60
+365,ip,spam,spam_ip,active,123.20.12.211,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+366,ip,spam,spam_ip,active,171.241.0.68,low,gov,25,2021-03-21,Viettel Group,97,60
+367,ip,spam,spam_ip,active,115.76.51.187,low,gov,21,2021-03-21,Viettel Group,84,60
+368,ip,spam,spam_ip,active,222.254.13.48,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),94,60
+369,ip,spam,spam_ip,active,118.71.196.75,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+370,ip,spam,spam_ip,active,171.241.126.83,low,gov,25,2021-03-21,Viettel Group,97,60
+371,ip,spam,spam_ip,active,14.229.230.183,low,gov,10,2021-03-21,Vietnam Posts and Telecommunications(VNPT),39,60
+372,ip,spam,spam_ip,active,14.251.81.139,low,gov,24,2021-03-21,Vietnam Posts And Telecommunications Group,96,60
+373,ip,spam,spam_ip,active,113.186.34.71,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),98,60
+374,ip,spam,spam_ip,active,113.181.158.25,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+375,ip,spam,spam_ip,active,14.251.73.86,low,gov,24,2021-03-21,Vietnam Posts And Telecommunications Group,96,60
+376,ip,spam,spam_ip,active,14.233.251.17,low,gov,9,2021-03-21,Vietnam Posts and Telecommunications(VNPT),34,60
+377,ip,spam,spam_ip,active,116.110.65.231,low,gov,25,2021-03-21,Viettel Corporation,100,60
+378,ip,spam,spam_ip,active,123.21.84.223,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+379,ip,spam,spam_ip,active,123.17.128.220,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),93,60
+380,ip,spam,spam_ip,active,27.78.248.127,low,gov,21,2021-03-21,Viettel Group,84,60
+381,ip,spam,spam_ip,active,123.21.151.215,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+382,ip,spam,spam_ip,active,183.81.50.212,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+383,ip,spam,spam_ip,active,27.71.122.174,low,gov,25,2021-03-21,Viettel Group,100,60
+384,ip,spam,spam_ip,active,118.71.30.207,low,gov,22,2021-03-21,FPT Telecom Company,88,60
+385,ip,spam,spam_ip,active,113.160.225.229,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),90,60
+386,ip,spam,spam_ip,active,113.170.0.32,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),91,60
+387,ip,spam,spam_ip,active,171.248.73.79,low,gov,22,2021-03-21,Viettel Group,87,60
+388,ip,spam,spam_ip,active,123.16.121.225,low,gov,13,2021-03-21,Vietnam Posts and Telecommunications(VNPT),50,60
+389,ip,spam,spam_ip,active,14.244.179.35,low,gov,14,2021-03-21,Vietnam Posts and Telecommunications(VNPT),55,60
+390,ip,spam,spam_ip,active,14.186.31.21,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),78,60
+391,ip,spam,spam_ip,active,14.242.58.115,low,gov,21,2021-03-21,Vietnam Posts and Telecommunications(VNPT),81,60
+392,ip,spam,spam_ip,active,123.27.94.20,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+393,ip,spam,spam_ip,active,42.115.186.119,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+394,ip,spam,spam_ip,active,183.81.50.129,low,gov,20,2021-03-21,FPT Telecom Company,78,60
+395,ip,spam,spam_ip,active,42.114.166.126,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+396,ip,spam,spam_ip,active,14.185.1.164,low,gov,19,2021-03-21,Vietnam Posts and Telecommunications(VNPT),76,60
+397,ip,spam,spam_ip,active,113.188.86.116,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),90,60
+398,ip,spam,spam_ip,active,123.20.84.77,low,gov,8,2021-03-21,Vietnam Posts and Telecommunications(VNPT),32,60
+399,ip,spam,spam_ip,active,14.165.152.95,low,gov,16,2021-03-21,Vietnam Posts and Telecommunications(VNPT),64,60
+400,ip,spam,spam_ip,active,113.187.41.123,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),85,60
+401,ip,spam,spam_ip,active,113.166.101.33,low,gov,19,2021-03-21,Vietnam Posts and Telecommunications(VNPT),74,60
+402,ip,spam,spam_ip,active,27.69.14.231,low,gov,22,2021-03-21,Viettel Group,85,60
+403,ip,spam,spam_ip,active,14.233.231.79,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),93,60
+404,ip,spam,spam_ip,active,14.233.199.227,low,gov,21,2021-03-21,Vietnam Posts and Telecommunications(VNPT),81,60
+405,ip,spam,spam_ip,active,171.240.3.116,low,gov,22,2021-03-21,Viettel Group,87,60
+406,ip,spam,spam_ip,active,113.172.17.211,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),100,60
+407,ip,spam,spam_ip,active,113.174.237.111,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),87,60
+408,ip,spam,spam_ip,active,14.190.93.149,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+409,ip,spam,spam_ip,active,14.191.180.34,low,gov,8,2021-03-21,Vietnam Posts and Telecommunications(VNPT),32,60
+410,ip,spam,spam_ip,active,171.243.154.69,low,gov,22,2021-03-21,Viettel Group,86,60
+411,ip,spam,spam_ip,active,14.175.178.32,low,gov,19,2021-03-21,Vietnam Posts and Telecommunications(VNPT),74,60
+412,ip,spam,spam_ip,active,14.182.149.151,low,gov,18,2021-03-21,Vietnam Posts and Telecommunications(VNPT),69,60
+413,ip,spam,spam_ip,active,113.165.52.218,low,gov,16,2021-03-21,Vietnam Posts and Telecommunications(VNPT),64,60
+414,ip,spam,spam_ip,active,42.118.0.177,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+415,ip,spam,spam_ip,active,14.182.127.178,low,gov,18,2021-03-21,Vietnam Posts and Telecommunications(VNPT),69,60
+416,ip,spam,spam_ip,active,171.240.8.138,low,gov,23,2021-03-21,Viettel Group,92,60
+417,ip,spam,spam_ip,active,125.235.239.226,low,gov,22,2021-03-21,Viettel Group,87,60
+418,ip,spam,spam_ip,active,14.171.212.54,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+419,ip,spam,spam_ip,active,113.161.241.233,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),98,60
+420,ip,spam,spam_ip,active,116.107.132.179,low,gov,22,2021-03-21,Viettel Corporation,88,60
+421,ip,spam,spam_ip,active,42.113.92.145,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+422,ip,spam,spam_ip,active,14.233.229.41,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),93,60
+423,ip,spam,spam_ip,active,42.119.63.52,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+424,ip,spam,spam_ip,active,27.71.99.93,low,gov,25,2021-03-21,Viettel Group,99,60
+425,ip,spam,spam_ip,active,58.186.52.112,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+426,ip,spam,spam_ip,active,14.239.45.40,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),92,60
+427,ip,spam,spam_ip,active,113.170.48.189,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),95,60
+428,ip,spam,spam_ip,active,117.2.218.208,low,gov,25,2021-03-21,Viettel Group,100,60
+429,ip,spam,spam_ip,active,113.179.169.237,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),78,60
+430,ip,spam,spam_ip,active,171.240.79.156,low,gov,25,2021-03-21,Viettel Group,98,60
+431,ip,spam,spam_ip,active,113.168.2.190,low,gov,16,2021-03-21,Vietnam Posts and Telecommunications(VNPT),63,60
+432,ip,spam,spam_ip,active,123.20.9.186,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),90,60
+433,ip,spam,spam_ip,active,14.173.64.234,low,gov,6,2021-03-21,Vietnam Posts and Telecommunications(VNPT),24,60
+434,ip,spam,spam_ip,active,113.186.163.231,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+435,ip,spam,spam_ip,active,14.190.77.151,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),99,60
+436,ip,spam,spam_ip,active,118.70.55.147,low,gov,25,2021-03-21,FPT Telecom Company,100,60
+437,ip,spam,spam_ip,active,116.103.143.222,low,gov,25,2021-03-21,Viettel Corporation,97,60
+438,ip,spam,spam_ip,active,14.230.94.61,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),96,60
+439,ip,spam,spam_ip,active,14.226.71.100,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),86,60
+440,ip,spam,spam_ip,active,123.20.217.248,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+441,ip,spam,spam_ip,active,123.21.248.177,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+442,ip,spam,spam_ip,active,113.180.175.61,low,gov,21,2021-03-21,Vietnam Posts and Telecommunications(VNPT),81,60
+443,ip,spam,spam_ip,active,113.184.211.232,low,gov,18,2021-03-21,Vietnam Posts and Telecommunications(VNPT),69,60
+444,ip,spam,spam_ip,active,113.22.172.230,low,gov,25,2021-03-21,FPT Telecom Company,100,60
+445,ip,spam,spam_ip,active,113.173.189.10,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+446,ip,spam,spam_ip,active,116.106.39.172,low,gov,25,2021-03-21,Viettel Corporation,97,60
+447,ip,spam,spam_ip,active,171.240.7.174,low,gov,23,2021-03-21,Viettel Group,92,60
+448,ip,spam,spam_ip,active,116.107.127.54,low,gov,25,2021-03-21,Viettel Group,100,60
+449,ip,spam,spam_ip,active,116.101.142.246,low,gov,25,2021-03-21,Viettel Group,100,60
+450,ip,spam,spam_ip,active,14.232.65.228,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+451,ip,spam,spam_ip,active,14.163.181.181,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+452,ip,spam,spam_ip,active,14.183.190.219,low,gov,17,2021-03-21,Vietnam Posts and Telecommunications(VNPT),66,60
+453,ip,spam,spam_ip,active,14.187.171.243,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+454,ip,spam,spam_ip,active,14.168.110.87,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+455,ip,spam,spam_ip,active,27.71.122.151,low,gov,25,2021-03-21,Viettel Group,100,60
+456,ip,spam,spam_ip,active,42.112.229.165,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+457,ip,spam,spam_ip,active,113.188.156.120,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+458,ip,spam,spam_ip,active,118.71.96.50,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+459,ip,spam,spam_ip,active,27.73.135.234,low,gov,24,2021-03-21,Viettel Group,96,60
+460,ip,spam,spam_ip,active,171.236.64.69,low,gov,25,2021-03-21,Viettel Group,100,60
+461,ip,spam,spam_ip,active,27.76.241.178,low,gov,25,2021-03-21,Viettel Group,97,60
+462,ip,spam,spam_ip,active,171.227.88.152,low,gov,16,2021-03-21,Viettel Group,63,60
+463,ip,spam,spam_ip,active,222.252.46.214,low,gov,16,2021-03-21,Vietnam Posts and Telecommunications(VNPT),63,60
+464,ip,spam,spam_ip,active,183.81.105.212,low,gov,25,2021-03-21,FPT Telecom Company,100,60
+465,ip,spam,spam_ip,active,1.55.210.63,low,gov,16,2021-03-21,FPT Telecom Company,63,60
+466,ip,spam,spam_ip,active,42.119.54.15,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+467,ip,spam,spam_ip,active,14.165.13.228,low,gov,19,2021-03-21,Vietnam Posts and Telecommunications(VNPT),76,60
+468,ip,spam,spam_ip,active,27.71.109.2,low,gov,11,2021-03-21,Viettel Group,44,60
+469,ip,spam,spam_ip,active,14.160.178.102,low,gov,16,2021-03-21,Vietnam Posts And Telecommunications Group,61,60
+470,ip,spam,spam_ip,active,123.27.151.191,low,gov,15,2021-03-21,Vietnam Posts and Telecommunications(VNPT),58,60
+471,ip,spam,spam_ip,active,1.53.54.17,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+472,ip,spam,spam_ip,active,14.174.1.190,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+473,ip,spam,spam_ip,active,27.2.216.243,low,gov,25,2021-03-21,SaiGon Tourist cable Televition Company,97,60
+474,ip,spam,spam_ip,active,14.245.225.103,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),91,60
+475,ip,spam,spam_ip,active,42.112.149.82,low,gov,23,2021-03-21,FPT Telecom Company,90,60
+476,ip,spam,spam_ip,active,171.229.178.81,low,gov,10,2021-03-21,Viettel Group,37,60
+477,ip,spam,spam_ip,active,123.18.56.121,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),95,60
+478,ip,spam,spam_ip,active,14.188.118.104,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),95,60
+479,ip,spam,spam_ip,active,171.231.135.107,low,gov,23,2021-03-21,Viettel Group,90,60
+480,ip,spam,spam_ip,active,115.76.54.204,low,gov,13,2021-03-21,Viettel Group,51,60
+481,ip,spam,spam_ip,active,14.189.106.217,low,gov,15,2021-03-21,Vietnam Posts and Telecommunications(VNPT),58,60
+482,ip,spam,spam_ip,active,123.19.163.120,low,gov,19,2021-03-21,Vietnam Posts and Telecommunications(VNPT),74,60
+483,ip,spam,spam_ip,active,123.27.42.124,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),97,60
+484,ip,spam,spam_ip,active,118.71.163.184,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+485,ip,spam,spam_ip,active,112.197.177.142,low,gov,21,2021-03-21,Cung cap dich vu Internet khach hang quan Nha Be,83,60
+486,ip,spam,spam_ip,active,14.254.194.158,low,gov,20,2021-03-21,Vietnam Posts And Telecommunications Group,78,60
+487,ip,spam,spam_ip,active,116.100.212.166,low,gov,25,2021-03-21,Viettel Corporation,97,60
+488,ip,spam,spam_ip,active,171.246.98.220,low,gov,25,2021-03-21,Viettel Group,98,60
+489,ip,spam,spam_ip,active,115.76.54.127,low,gov,13,2021-03-21,Viettel Group,51,60
+490,ip,spam,spam_ip,active,14.172.109.7,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+491,ip,spam,spam_ip,active,14.186.182.93,low,gov,18,2021-03-21,Vietnam Posts and Telecommunications(VNPT),71,60
+492,ip,spam,spam_ip,active,123.17.134.95,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+493,ip,spam,spam_ip,active,116.98.173.83,low,gov,24,2021-03-21,Viettel Corporation,93,60
+494,ip,spam,spam_ip,active,14.242.114.51,low,gov,7,2021-03-21,Vietnam Posts and Telecommunications(VNPT),28,60
+495,ip,spam,spam_ip,active,171.236.65.163,low,gov,25,2021-03-21,Viettel Group,100,60
+496,ip,spam,spam_ip,active,14.190.125.176,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+497,ip,spam,spam_ip,active,14.243.25.224,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),79,60
+498,ip,spam,spam_ip,active,14.176.145.230,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+499,ip,spam,spam_ip,active,14.186.45.18,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),86,60
+500,ip,spam,spam_ip,active,14.245.62.227,low,gov,9,2021-03-21,Vietnam Posts and Telecommunications(VNPT),34,60
+501,ip,spam,spam_ip,active,123.18.65.31,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),93,60
+502,ip,spam,spam_ip,active,115.76.55.149,low,gov,13,2021-03-21,Viettel Group,51,60
+503,ip,spam,spam_ip,active,1.52.103.56,low,gov,25,2021-03-21,FPT Telecom,99,60
+504,ip,spam,spam_ip,active,116.96.79.43,low,gov,25,2021-03-21,Viettel Group,99,60
+505,ip,spam,spam_ip,active,1.52.126.160,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+506,ip,spam,spam_ip,active,171.236.48.254,low,gov,25,2021-03-21,Viettel Group,100,60
+507,ip,spam,spam_ip,active,112.197.31.227,low,gov,18,2021-03-21,SaiGon Tourist cable Televition Company,72,60
+508,ip,spam,spam_ip,active,27.64.123.20,low,gov,25,2021-03-21,Viettel Group,97,60
+509,ip,spam,spam_ip,active,59.153.237.121,low,gov,24,2021-03-21,MOBIFONE Corporation,96,60
+510,ip,spam,spam_ip,active,42.119.155.183,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+511,ip,spam,spam_ip,active,117.5.102.155,low,gov,25,2021-03-21,Viettel Group,97,60
+512,ip,spam,spam_ip,active,113.187.188.192,low,gov,16,2021-03-21,Vietnam Posts And Telecommunications Group,61,60
+513,ip,spam,spam_ip,active,117.5.155.178,low,gov,25,2021-03-21,Viettel Group,100,60
+514,ip,spam,spam_ip,active,113.167.12.115,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),97,60
+515,ip,spam,spam_ip,active,171.232.125.77,low,gov,22,2021-03-21,Viettel Group,87,60
+516,ip,spam,spam_ip,active,123.17.189.94,low,gov,19,2021-03-21,Vietnam Posts and Telecommunications(VNPT),76,60
+517,ip,spam,spam_ip,active,14.247.129.237,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),96,60
+518,ip,spam,spam_ip,active,113.170.114.179,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),86,60
+519,ip,spam,spam_ip,active,125.235.237.183,low,gov,25,2021-03-21,Viettel Group,100,60
+520,ip,spam,spam_ip,active,123.16.93.32,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+521,ip,spam,spam_ip,active,59.153.220.83,low,gov,24,2021-03-21,,96,60
+522,ip,spam,spam_ip,active,14.232.247.43,low,gov,23,2021-03-21,Vietnam Posts and Telecommunications(VNPT),89,60
+523,ip,spam,spam_ip,active,115.72.76.93,low,gov,25,2021-03-21,Viettel Group,98,60
+524,ip,spam,spam_ip,active,42.113.196.91,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+525,ip,spam,spam_ip,active,113.179.43.146,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),95,60
+526,ip,spam,spam_ip,active,115.72.186.153,low,gov,22,2021-03-21,Viettel Group,87,60
+527,ip,spam,spam_ip,active,27.3.81.100,low,gov,18,2021-03-21,SaiGon Tourist cable Televition Company,72,60
+528,ip,spam,spam_ip,active,123.16.71.131,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+529,ip,spam,spam_ip,active,14.170.90.53,low,gov,15,2021-03-21,Vietnam Posts and Telecommunications(VNPT),58,60
+530,ip,spam,spam_ip,active,1.52.153.95,low,gov,25,2021-03-21,FPT Telecom,99,60
+531,ip,spam,spam_ip,active,113.191.64.182,low,gov,11,2021-03-21,Vietnam Posts And Telecommunications Group,42,60
+532,ip,spam,spam_ip,active,14.187.110.60,low,gov,21,2021-03-21,Vietnam Posts and Telecommunications(VNPT),81,60
+533,ip,spam,spam_ip,active,1.53.36.115,low,gov,25,2021-03-21,FPT Telecom Company,100,60
+534,ip,spam,spam_ip,active,183.81.51.124,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+535,ip,spam,spam_ip,active,14.165.19.17,low,gov,13,2021-03-21,Vietnam Posts and Telecommunications(VNPT),52,60
+536,ip,spam,spam_ip,active,1.53.204.32,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+537,ip,spam,spam_ip,active,113.183.122.238,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+538,ip,spam,spam_ip,active,14.250.209.45,low,gov,7,2021-03-21,Vietnam Posts And Telecommunications Group,28,60
+539,ip,spam,spam_ip,active,113.181.233.31,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+540,ip,spam,spam_ip,active,27.77.68.243,low,gov,23,2021-03-21,Viettel Group,91,60
+541,ip,spam,spam_ip,active,116.108.69.138,low,gov,25,2021-03-21,Viettel Corporation,100,60
+542,ip,spam,spam_ip,active,14.179.233.1,low,gov,24,2021-03-21,Vietnam Posts And Telecommunications Group,94,60
+543,ip,spam,spam_ip,active,27.71.161.252,low,gov,25,2021-03-21,Viettel Group,100,60
+544,ip,spam,spam_ip,active,113.179.138.72,low,gov,21,2021-03-21,Vietnam Posts and Telecommunications(VNPT),82,60
+545,ip,spam,spam_ip,active,42.116.166.150,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+546,ip,spam,spam_ip,active,14.243.156.62,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+547,ip,spam,spam_ip,active,14.228.200.0,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),98,60
+548,ip,spam,spam_ip,active,113.162.106.139,low,gov,12,2021-03-21,Vietnam Posts and Telecommunications(VNPT),48,60
+549,ip,spam,spam_ip,active,42.118.99.41,low,gov,25,2021-03-21,FPT Telecom Company,100,60
+550,ip,spam,spam_ip,active,113.177.123.21,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+551,ip,spam,spam_ip,active,14.172.72.118,low,gov,15,2021-03-21,Vietnam Posts and Telecommunications(VNPT),60,60
+552,ip,spam,spam_ip,active,113.186.74.178,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),97,60
+553,ip,spam,spam_ip,active,113.173.110.247,low,gov,19,2021-03-21,Vietnam Posts and Telecommunications(VNPT),73,60
+554,ip,spam,spam_ip,active,14.190.52.106,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+555,ip,spam,spam_ip,active,42.113.119.116,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+556,ip,spam,spam_ip,active,14.190.178.49,low,gov,18,2021-03-21,Vietnam Posts and Telecommunications(VNPT),69,60
+557,ip,spam,spam_ip,active,123.21.212.248,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+558,ip,spam,spam_ip,active,1.52.83.243,low,gov,25,2021-03-21,FPT Telecom,99,60
+559,ip,spam,spam_ip,active,14.186.54.17,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),96,60
+560,ip,spam,spam_ip,active,123.21.247.4,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+561,ip,spam,spam_ip,active,14.188.60.180,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),96,60
+562,ip,spam,spam_ip,active,171.238.75.211,low,gov,25,2021-03-21,Viettel Group,100,60
+563,ip,spam,spam_ip,active,118.71.164.90,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+564,ip,spam,spam_ip,active,113.189.53.231,low,gov,16,2021-03-21,Vietnam Posts and Telecommunications(VNPT),64,60
+565,ip,spam,spam_ip,active,14.226.205.210,low,gov,21,2021-03-21,Vietnam Posts and Telecommunications(VNPT),81,60
+566,ip,spam,spam_ip,active,123.24.103.248,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),77,60
+567,ip,spam,spam_ip,active,14.231.231.114,low,gov,20,2021-03-21,Vietnam Posts and Telecommunications(VNPT),80,60
+568,ip,spam,spam_ip,active,27.73.115.182,low,gov,25,2021-03-21,Viettel Group,97,60
+569,ip,spam,spam_ip,active,115.76.49.8,low,gov,21,2021-03-21,Viettel Group,84,60
+570,ip,spam,spam_ip,active,113.23.17.249,low,gov,22,2021-03-21,FPT Telecom Company,88,60
+571,ip,spam,spam_ip,active,113.166.42.34,low,gov,19,2021-03-21,Vietnam Posts and Telecommunications(VNPT),74,60
+572,ip,spam,spam_ip,active,14.254.233.116,low,gov,22,2021-03-21,Vietnam Posts And Telecommunications Group,86,60
+573,ip,spam,spam_ip,active,113.186.119.16,low,gov,17,2021-03-21,Vietnam Posts and Telecommunications(VNPT),66,60
+574,ip,spam,spam_ip,active,171.241.40.188,low,gov,23,2021-03-21,Viettel Group,90,60
+575,ip,spam,spam_ip,active,1.52.122.152,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+576,ip,spam,spam_ip,active,58.186.56.56,low,gov,25,2021-03-21,FPT Telecom Company,99,60
+577,ip,spam,spam_ip,active,171.236.48.196,low,gov,25,2021-03-21,Viettel Group,100,60
+578,ip,spam,spam_ip,active,14.245.27.2,low,gov,24,2021-03-21,Vietnam Posts and Telecommunications(VNPT),93,60
+579,ip,spam,spam_ip,active,123.21.75.72,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),88,60
+580,ip,bot,bot_ip,active,103.143.209.216,low,gov,25,2021-03-21,,97,75
+581,ip,bot,bot_ip,active,103.121.89.37,low,gov,17,2021-03-21,,68,75
+582,ip,bot,bot_ip,active,45.122.247.122,low,gov,23,2021-03-21,CMC Telecom Infrastructure Company,90,75
+583,ip,bot,bot_ip,active,42.113.219.159,low,gov,25,2021-03-21,FPT Telecom Company,99,75
+584,ip,bot,bot_ip,active,27.71.226.80,low,gov,25,2021-03-21,Viettel Group,97,75
+585,ip,bot,bot_ip,active,14.241.237.205,low,gov,22,2021-03-21,Vietnam Posts and Telecommunications(VNPT),86,75
+586,ip,bot,bot_ip,active,14.235.26.236,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),100,75
+587,ip,bot,bot_ip,active,14.229.2.58,low,gov,25,2021-03-21,Vietnam Posts and Telecommunications(VNPT),98,75
+588,ip,bot,bot_ip,active,14.174.141.9,low,gov,13,2021-03-21,Vietnam Posts and Telecommunications(VNPT),52,75
+589,ip,spam,spam_ip,active,117.7.191.176,low,gov,25,2021-03-20,Viettel Group,97,75
+590,ip,spam,spam_ip,active,14.237.131.8,low,gov,21,2021-03-20,Vietnam Posts and Telecommunications(VNPT),81,75
+591,ip,spam,spam_ip,active,14.248.97.95,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+592,ip,spam,spam_ip,active,14.240.243.115,low,gov,15,2021-03-20,Vietnam Posts and Telecommunications(VNPT),60,75
+593,ip,spam,spam_ip,active,14.175.163.28,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),93,75
+594,ip,spam,spam_ip,active,27.71.7.175,low,gov,25,2021-03-20,Viettel Group,100,75
+595,ip,spam,spam_ip,active,113.168.186.174,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+596,ip,spam,spam_ip,active,123.17.184.0,low,gov,19,2021-03-20,Vietnam Posts and Telecommunications(VNPT),76,75
+597,ip,spam,spam_ip,active,116.98.253.67,low,gov,25,2021-03-20,Viettel Corporation,100,75
+598,ip,spam,spam_ip,active,171.225.254.245,low,gov,25,2021-03-20,Viettel Group,100,75
+599,ip,spam,spam_ip,active,117.2.127.47,low,gov,25,2021-03-20,Viettel Group,99,75
+600,ip,spam,spam_ip,active,171.241.75.46,low,gov,25,2021-03-20,Viettel Group,97,75
+601,ip,spam,spam_ip,active,27.76.124.135,low,gov,24,2021-03-20,Viettel Group,94,75
+602,ip,spam,spam_ip,active,14.169.224.45,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+603,ip,spam,spam_ip,active,14.186.82.209,low,gov,21,2021-03-20,Vietnam Posts and Telecommunications(VNPT),81,75
+604,ip,spam,spam_ip,active,171.238.65.190,low,gov,25,2021-03-20,Viettel Group,97,75
+605,ip,spam,spam_ip,active,14.247.144.127,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+606,ip,spam,spam_ip,active,14.188.65.73,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+607,ip,spam,spam_ip,active,123.16.2.82,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+608,ip,spam,spam_ip,active,27.79.237.94,low,gov,25,2021-03-20,Viettel Group,97,75
+609,ip,spam,spam_ip,active,113.186.143.27,low,gov,17,2021-03-20,Vietnam Posts and Telecommunications(VNPT),66,75
+610,ip,spam,spam_ip,active,171.228.18.67,low,gov,25,2021-03-20,Viettel Group,97,75
+611,ip,spam,spam_ip,active,123.19.128.117,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+612,ip,spam,spam_ip,active,118.68.247.0,low,gov,25,2021-03-20,FPT Telecom Company,97,75
+613,ip,spam,spam_ip,active,1.52.162.212,low,gov,23,2021-03-20,FPT Telecom Company,91,75
+614,ip,spam,spam_ip,active,14.174.143.143,low,gov,13,2021-03-20,Vietnam Posts and Telecommunications(VNPT),52,75
+615,ip,spam,spam_ip,active,14.170.169.199,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+616,ip,spam,spam_ip,active,113.187.188.192,low,gov,16,2021-03-20,Vietnam Posts And Telecommunications Group,61,75
+617,ip,spam,spam_ip,active,113.167.174.185,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),97,75
+618,ip,spam,spam_ip,active,27.71.122.148,low,gov,25,2021-03-20,Viettel Group,100,75
+619,ip,spam,spam_ip,active,113.165.183.145,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+620,ip,spam,spam_ip,active,14.172.6.103,low,gov,15,2021-03-20,Vietnam Posts and Telecommunications(VNPT),60,75
+621,ip,spam,spam_ip,active,123.16.242.138,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+622,ip,spam,spam_ip,active,14.255.27.12,low,gov,23,2021-03-20,Vietnam Posts And Telecommunications Group,92,75
+623,ip,spam,spam_ip,active,1.52.36.166,low,gov,24,2021-03-20,FPT Telecom,95,75
+624,ip,spam,spam_ip,active,113.22.236.199,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+625,ip,spam,spam_ip,active,58.187.173.156,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+626,ip,spam,spam_ip,active,123.23.117.252,low,gov,15,2021-03-20,Vietnam Posts and Telecommunications(VNPT),60,75
+627,ip,spam,spam_ip,active,113.191.137.37,low,gov,12,2021-03-20,Vietnam Posts And Telecommunications Group,46,75
+628,ip,spam,spam_ip,active,222.252.61.213,low,gov,16,2021-03-20,Vietnam Posts and Telecommunications(VNPT),63,75
+629,ip,spam,spam_ip,active,113.169.226.225,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),95,75
+630,ip,spam,spam_ip,active,116.103.154.109,low,gov,25,2021-03-20,Viettel Corporation,100,75
+631,ip,spam,spam_ip,active,113.23.42.74,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+632,ip,spam,spam_ip,active,118.71.191.16,low,gov,23,2021-03-20,FPT Telecom Company,90,75
+633,ip,spam,spam_ip,active,113.22.118.28,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+634,ip,spam,spam_ip,active,115.74.1.78,low,gov,22,2021-03-20,Viettel Group,87,75
+635,ip,spam,spam_ip,active,123.21.218.201,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),100,75
+636,ip,spam,spam_ip,active,123.20.134.147,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),94,75
+637,ip,spam,spam_ip,active,113.181.3.36,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),98,75
+638,ip,spam,spam_ip,active,14.177.166.232,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+639,ip,spam,spam_ip,active,171.229.33.173,low,gov,25,2021-03-20,Viettel Group,97,75
+640,ip,spam,spam_ip,active,118.68.65.41,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+641,ip,spam,spam_ip,active,1.53.115.162,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+642,ip,spam,spam_ip,active,14.176.220.16,low,gov,19,2021-03-20,Vietnam Posts and Telecommunications(VNPT),76,75
+643,ip,spam,spam_ip,active,113.188.117.119,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),96,75
+644,ip,spam,spam_ip,active,113.172.219.98,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),98,75
+645,ip,spam,spam_ip,active,14.169.237.209,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+646,ip,spam,spam_ip,active,14.230.206.74,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),86,75
+647,ip,spam,spam_ip,active,14.162.219.117,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+648,ip,spam,spam_ip,active,123.24.47.217,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+649,ip,spam,spam_ip,active,14.230.143.30,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+650,ip,spam,spam_ip,active,42.119.159.163,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+651,ip,spam,spam_ip,active,123.18.124.142,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),96,75
+652,ip,spam,spam_ip,active,42.113.121.53,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+653,ip,spam,spam_ip,active,171.225.233.51,low,gov,25,2021-03-20,Viettel Group,98,75
+654,ip,spam,spam_ip,active,117.4.247.233,low,gov,17,2021-03-20,Viettel Group,68,75
+655,ip,spam,spam_ip,active,58.186.105.145,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+656,ip,spam,spam_ip,active,27.69.163.10,low,gov,25,2021-03-20,Viettel Group,98,75
+657,ip,spam,spam_ip,active,123.27.74.51,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),99,75
+658,ip,spam,spam_ip,active,14.231.96.251,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+659,ip,spam,spam_ip,active,1.55.250.3,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+660,ip,spam,spam_ip,active,14.182.98.142,low,gov,18,2021-03-20,Vietnam Posts and Telecommunications(VNPT),69,75
+661,ip,spam,spam_ip,active,42.112.154.14,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+662,ip,spam,spam_ip,active,113.170.233.153,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+663,ip,spam,spam_ip,active,171.229.88.60,low,gov,25,2021-03-20,Viettel Group,98,75
+664,ip,spam,spam_ip,active,171.229.142.127,low,gov,25,2021-03-20,Viettel Group,97,75
+665,ip,spam,spam_ip,active,123.20.171.35,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+666,ip,spam,spam_ip,active,116.99.42.98,low,gov,25,2021-03-20,Viettel Corporation,100,75
+667,ip,spam,spam_ip,active,123.24.158.225,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+668,ip,spam,spam_ip,active,14.174.167.198,low,gov,19,2021-03-20,Vietnam Posts and Telecommunications(VNPT),76,75
+669,ip,spam,spam_ip,active,171.225.132.172,low,gov,25,2021-03-20,Viettel Group,100,75
+670,ip,spam,spam_ip,active,1.54.187.25,low,gov,18,2021-03-20,FPT Telecom Company,69,75
+671,ip,spam,spam_ip,active,14.174.117.81,low,gov,21,2021-03-20,Vietnam Posts and Telecommunications(VNPT),83,75
+672,ip,spam,spam_ip,active,113.167.14.221,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+673,ip,spam,spam_ip,active,14.180.202.89,low,gov,24,2021-03-20,Vietnam Posts And Telecommunications Group,94,75
+674,ip,spam,spam_ip,active,14.226.250.77,low,gov,21,2021-03-20,Vietnam Posts and Telecommunications(VNPT),81,75
+675,ip,spam,spam_ip,active,113.174.232.200,low,gov,18,2021-03-20,Vietnam Posts and Telecommunications(VNPT),69,75
+676,ip,spam,spam_ip,active,58.186.59.12,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+677,ip,spam,spam_ip,active,171.224.179.211,low,gov,23,2021-03-20,Viettel Group,91,75
+678,ip,spam,spam_ip,active,113.23.43.111,low,gov,23,2021-03-20,FPT Telecom Company,90,75
+679,ip,spam,spam_ip,active,42.113.183.180,low,gov,25,2021-03-20,FPT Telecom Company,98,75
+680,ip,spam,spam_ip,active,171.237.240.152,low,gov,24,2021-03-20,Viettel Group,95,75
+681,ip,spam,spam_ip,active,42.114.142.187,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+682,ip,spam,spam_ip,active,171.247.240.156,low,gov,22,2021-03-20,Viettel Group,85,75
+683,ip,spam,spam_ip,active,116.99.38.147,low,gov,25,2021-03-20,Viettel Corporation,100,75
+684,ip,spam,spam_ip,active,14.169.7.26,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+685,ip,spam,spam_ip,active,42.114.121.244,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+686,ip,spam,spam_ip,active,42.116.129.49,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+687,ip,spam,spam_ip,active,116.109.69.74,low,gov,24,2021-03-20,Viettel Corporation,95,75
+688,ip,spam,spam_ip,active,42.119.10.9,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+689,ip,spam,spam_ip,active,14.186.41.246,low,gov,21,2021-03-20,Vietnam Posts and Telecommunications(VNPT),81,75
+690,ip,spam,spam_ip,active,14.243.26.140,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),96,75
+691,ip,spam,spam_ip,active,123.24.129.89,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+692,ip,spam,spam_ip,active,171.241.117.87,low,gov,25,2021-03-20,Viettel Group,97,75
+693,ip,spam,spam_ip,active,113.177.178.232,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+694,ip,spam,spam_ip,active,113.166.231.73,low,gov,18,2021-03-20,Vietnam Posts and Telecommunications(VNPT),69,75
+695,ip,spam,spam_ip,active,1.54.252.110,low,gov,25,2021-03-20,FPT Telecom Company,98,75
+696,ip,spam,spam_ip,active,103.199.36.85,low,gov,18,2021-03-20,MOBIFONE Corporation,72,75
+697,ip,spam,spam_ip,active,14.228.206.177,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+698,ip,spam,spam_ip,active,27.71.82.74,low,gov,24,2021-03-20,Viettel Group,93,75
+699,ip,spam,spam_ip,active,1.52.172.40,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+700,ip,spam,spam_ip,active,14.188.186.132,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+701,ip,spam,spam_ip,active,14.186.40.115,low,gov,21,2021-03-20,Vietnam Posts and Telecommunications(VNPT),81,75
+702,ip,spam,spam_ip,active,171.252.170.82,low,gov,25,2021-03-20,Viettel Group,100,75
+703,ip,spam,spam_ip,active,14.232.54.162,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+704,ip,spam,spam_ip,active,14.228.188.202,low,gov,18,2021-03-20,Vietnam Posts and Telecommunications(VNPT),69,75
+705,ip,spam,spam_ip,active,115.76.54.246,low,gov,13,2021-03-20,Viettel Group,51,75
+706,ip,spam,spam_ip,active,14.186.229.15,low,gov,21,2021-03-20,Vietnam Posts and Telecommunications(VNPT),81,75
+707,ip,spam,spam_ip,active,14.169.219.1,low,gov,18,2021-03-20,Vietnam Posts and Telecommunications(VNPT),71,75
+708,ip,spam,spam_ip,active,118.71.115.85,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+709,ip,spam,spam_ip,active,14.187.148.78,low,gov,21,2021-03-20,Vietnam Posts and Telecommunications(VNPT),81,75
+710,ip,spam,spam_ip,active,115.77.219.249,low,gov,8,2021-03-20,Viettel Group,29,75
+711,ip,spam,spam_ip,active,14.170.120.204,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+712,ip,spam,spam_ip,active,14.169.196.183,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+713,ip,spam,spam_ip,active,113.176.81.180,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),98,75
+714,ip,spam,spam_ip,active,1.53.12.105,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+715,ip,spam,spam_ip,active,123.20.23.188,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+716,ip,spam,spam_ip,active,115.73.223.180,low,gov,22,2021-03-20,Viettel Group,87,75
+717,ip,spam,spam_ip,active,117.2.239.115,low,gov,25,2021-03-20,Viettel Group,99,75
+718,ip,spam,spam_ip,active,27.73.104.237,low,gov,25,2021-03-20,Viettel Group,97,75
+719,ip,spam,spam_ip,active,171.228.55.223,low,gov,25,2021-03-20,Viettel Group,97,75
+720,ip,spam,spam_ip,active,171.254.227.144,low,gov,22,2021-03-20,Viettel Group,87,75
+721,ip,spam,spam_ip,active,171.241.129.85,low,gov,25,2021-03-20,Viettel Group,97,75
+722,ip,spam,spam_ip,active,103.238.83.150,low,gov,22,2021-03-20,Cloudone Technology Company Limited,85,75
+723,ip,spam,spam_ip,active,171.240.30.183,low,gov,25,2021-03-20,Viettel Group,98,75
+724,ip,spam,spam_ip,active,42.119.223.78,low,gov,25,2021-03-20,FPT Telecom Company,100,75
+725,ip,spam,spam_ip,active,42.118.115.209,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+726,ip,spam,spam_ip,active,171.241.192.233,low,gov,22,2021-03-20,Viettel Group,86,75
+727,ip,spam,spam_ip,active,14.162.158.254,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+728,ip,spam,spam_ip,active,113.188.87.151,low,gov,17,2021-03-20,Vietnam Posts and Telecommunications(VNPT),66,75
+729,ip,spam,spam_ip,active,14.248.126.15,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+730,ip,spam,spam_ip,active,27.76.123.52,low,gov,25,2021-03-20,Viettel Group,97,75
+731,ip,spam,spam_ip,active,113.174.119.241,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+732,ip,spam,spam_ip,active,27.78.115.189,low,gov,22,2021-03-20,Viettel Group,87,75
+733,ip,spam,spam_ip,active,14.232.34.15,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+734,ip,spam,spam_ip,active,171.242.28.179,low,gov,24,2021-03-20,Viettel Group,95,75
+735,ip,spam,spam_ip,active,117.1.193.191,low,gov,25,2021-03-20,Viettel Group,97,75
+736,ip,spam,spam_ip,active,1.53.199.135,low,gov,19,2021-03-20,FPT Telecom Company,76,75
+737,ip,spam,spam_ip,active,14.232.234.113,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+738,ip,spam,spam_ip,active,14.190.119.116,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),86,75
+739,ip,spam,spam_ip,active,14.188.182.90,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),99,75
+740,ip,spam,spam_ip,active,27.76.109.61,low,gov,25,2021-03-20,Viettel Group,97,75
+741,ip,spam,spam_ip,active,42.116.190.13,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+742,ip,spam,spam_ip,active,116.102.47.6,low,gov,25,2021-03-20,Viettel Corporation,100,75
+743,ip,spam,spam_ip,active,123.21.251.121,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+744,ip,spam,spam_ip,active,58.186.197.154,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+745,ip,spam,spam_ip,active,14.249.80.77,low,gov,19,2021-03-20,Vietnam Posts And Telecommunications Group,76,75
+746,ip,spam,spam_ip,active,115.73.4.94,low,gov,22,2021-03-20,Viettel Group,87,75
+747,ip,spam,spam_ip,active,58.186.62.191,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+748,ip,spam,spam_ip,active,113.183.41.245,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+749,ip,spam,spam_ip,active,123.24.66.224,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+750,ip,spam,spam_ip,active,14.184.163.145,low,gov,21,2021-03-20,Vietnam Posts and Telecommunications(VNPT),83,75
+751,ip,spam,spam_ip,active,103.249.23.23,low,gov,18,2021-03-20,,72,75
+752,ip,spam,spam_ip,active,42.113.159.96,low,gov,25,2021-03-20,FPT Telecom Company,98,75
+753,ip,spam,spam_ip,active,14.250.54.91,low,gov,13,2021-03-20,Vietnam Posts And Telecommunications Group,50,75
+754,ip,spam,spam_ip,active,117.7.146.131,low,gov,24,2021-03-20,Viettel Group,95,75
+755,ip,spam,spam_ip,active,113.179.186.200,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+756,ip,spam,spam_ip,active,113.163.5.87,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+757,ip,spam,spam_ip,active,222.252.83.205,low,gov,16,2021-03-20,Vietnam Posts and Telecommunications(VNPT),63,75
+758,ip,spam,spam_ip,active,123.21.191.131,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+759,ip,spam,spam_ip,active,14.181.44.137,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),96,75
+760,ip,spam,spam_ip,active,14.255.15.50,low,gov,7,2021-03-20,Vietnam Posts And Telecommunications Group,28,75
+761,ip,spam,spam_ip,active,27.71.82.35,low,gov,24,2021-03-20,Viettel Group,93,75
+762,ip,spam,spam_ip,active,14.252.176.68,low,gov,24,2021-03-20,Vietnam Posts And Telecommunications Group,95,75
+763,ip,spam,spam_ip,active,183.80.85.76,low,gov,25,2021-03-20,FPT Telecom,100,75
+764,ip,spam,spam_ip,active,118.71.78.21,low,gov,25,2021-03-20,FPT Telecom Company,98,75
+765,ip,spam,spam_ip,active,42.116.149.248,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+766,ip,spam,spam_ip,active,123.21.142.251,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+767,ip,spam,spam_ip,active,171.232.23.109,low,gov,24,2021-03-20,Viettel Group,96,75
+768,ip,spam,spam_ip,active,171.224.40.139,low,gov,25,2021-03-20,Viettel Group,98,75
+769,ip,spam,spam_ip,active,171.247.202.137,low,gov,23,2021-03-20,Viettel Group,91,75
+770,ip,spam,spam_ip,active,171.234.98.198,low,gov,25,2021-03-20,Viettel Group,97,75
+771,ip,spam,spam_ip,active,115.72.77.9,low,gov,25,2021-03-20,Viettel Group,98,75
+772,ip,spam,spam_ip,active,113.163.167.234,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),97,75
+773,ip,spam,spam_ip,active,171.241.15.108,low,gov,25,2021-03-20,Viettel Group,97,75
+774,ip,spam,spam_ip,active,27.3.200.202,low,gov,22,2021-03-20,SaiGon Tourist cable Televition Company,88,75
+775,ip,spam,spam_ip,active,59.153.229.21,low,gov,21,2021-03-20,MOBIFONE Corporation,83,75
+776,ip,spam,spam_ip,active,123.24.67.82,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+777,ip,spam,spam_ip,active,1.52.235.254,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+778,ip,spam,spam_ip,active,14.248.135.190,low,gov,23,2021-03-20,Vietnam Posts and Telecommunications(VNPT),91,75
+779,ip,spam,spam_ip,active,14.249.147.145,low,gov,18,2021-03-20,Vietnam Posts And Telecommunications Group,72,75
+780,ip,spam,spam_ip,active,14.169.92.17,low,gov,21,2021-03-20,Vietnam Posts and Telecommunications(VNPT),83,75
+781,ip,spam,spam_ip,active,113.181.14.120,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),80,75
+782,ip,spam,spam_ip,active,113.178.32.112,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+783,ip,spam,spam_ip,active,14.244.154.224,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),93,75
+784,ip,spam,spam_ip,active,115.75.239.76,low,gov,22,2021-03-20,Viettel Group,87,75
+785,ip,spam,spam_ip,active,115.75.243.251,low,gov,22,2021-03-20,Viettel Group,87,75
+786,ip,spam,spam_ip,active,125.212.157.183,low,gov,24,2021-03-20,Viettel Corporation,95,75
+787,ip,spam,spam_ip,active,14.243.78.93,low,gov,23,2021-03-20,Vietnam Posts and Telecommunications(VNPT),92,75
+788,ip,spam,spam_ip,active,123.16.243.222,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+789,ip,spam,spam_ip,active,59.153.253.50,low,gov,24,2021-03-20,MOBIFONE Corporation,96,75
+790,ip,spam,spam_ip,active,171.252.155.33,low,gov,22,2021-03-20,Viettel Group,87,75
+791,ip,spam,spam_ip,active,171.242.99.19,low,gov,25,2021-03-20,Viettel Group,100,75
+792,ip,spam,spam_ip,active,171.233.200.74,low,gov,11,2021-03-20,Viettel Group,44,75
+793,ip,spam,spam_ip,active,123.27.202.103,low,gov,19,2021-03-20,Vietnam Posts and Telecommunications(VNPT),76,75
+794,ip,spam,spam_ip,active,116.96.160.25,low,gov,24,2021-03-20,Viettel Group,95,75
+795,ip,spam,spam_ip,active,14.251.66.120,low,gov,18,2021-03-20,Vietnam Posts And Telecommunications Group,71,75
+796,ip,spam,spam_ip,active,1.53.8.200,low,gov,22,2021-03-20,FPT Telecom Company,88,75
+797,ip,spam,spam_ip,active,123.16.128.77,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+798,ip,spam,spam_ip,active,115.79.238.75,low,gov,23,2021-03-20,Viettel Group,90,75
+799,ip,spam,spam_ip,active,113.172.171.134,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),96,75
+800,ip,spam,spam_ip,active,27.66.217.96,low,gov,25,2021-03-20,Viettel Group,100,75
+801,ip,spam,spam_ip,active,125.235.227.148,low,gov,22,2021-03-20,Viettel Group,85,75
+802,ip,spam,spam_ip,active,171.236.130.22,low,gov,25,2021-03-20,Viettel Group,97,75
+803,ip,spam,spam_ip,active,14.231.212.61,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+804,ip,spam,spam_ip,active,171.244.76.44,low,gov,25,2021-03-20,Viettel Group,98,75
+805,ip,spam,spam_ip,active,222.252.107.231,low,gov,16,2021-03-20,Vietnam Posts and Telecommunications(VNPT),63,75
+806,ip,spam,spam_ip,active,171.228.223.158,low,gov,25,2021-03-20,Viettel Group,100,75
+807,ip,spam,spam_ip,active,14.167.236.60,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+808,ip,spam,spam_ip,active,14.228.184.107,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),96,75
+809,ip,spam,spam_ip,active,222.254.9.111,low,gov,18,2021-03-20,Vietnam Posts and Telecommunications(VNPT),71,75
+810,ip,spam,spam_ip,active,42.113.203.73,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+811,ip,spam,spam_ip,active,14.186.5.167,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),100,75
+812,ip,spam,spam_ip,active,14.252.155.192,low,gov,22,2021-03-20,Vietnam Posts And Telecommunications Group,88,75
+813,ip,spam,spam_ip,active,14.177.160.185,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+814,ip,spam,spam_ip,active,123.28.113.208,low,gov,18,2021-03-20,Vietnam Posts and Telecommunications(VNPT),69,75
+815,ip,spam,spam_ip,active,117.7.150.186,low,gov,24,2021-03-20,Viettel Group,95,75
+816,ip,spam,spam_ip,active,113.173.85.168,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),100,75
+817,ip,spam,spam_ip,active,123.22.246.245,low,gov,16,2021-03-20,Vietnam Posts and Telecommunications(VNPT),61,75
+818,ip,spam,spam_ip,active,125.235.236.216,low,gov,25,2021-03-20,Viettel Group,100,75
+819,ip,spam,spam_ip,active,113.178.32.186,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+820,ip,spam,spam_ip,active,171.251.235.61,low,gov,21,2021-03-20,Viettel Group,84,75
+821,ip,spam,spam_ip,active,14.162.207.137,low,gov,17,2021-03-20,Vietnam Posts and Telecommunications(VNPT),66,75
+822,ip,spam,spam_ip,active,14.177.114.169,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+823,ip,spam,spam_ip,active,113.162.167.52,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+824,ip,spam,spam_ip,active,14.248.196.136,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+825,ip,spam,spam_ip,active,123.21.140.21,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+826,ip,spam,spam_ip,active,14.162.18.208,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+827,ip,spam,spam_ip,active,113.186.142.64,low,gov,17,2021-03-20,Vietnam Posts and Telecommunications(VNPT),66,75
+828,ip,spam,spam_ip,active,14.235.176.94,low,gov,23,2021-03-20,Vietnam Posts and Telecommunications(VNPT),91,75
+829,ip,spam,spam_ip,active,123.20.49.143,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+830,ip,spam,spam_ip,active,123.27.240.36,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),80,75
+831,ip,spam,spam_ip,active,1.53.208.217,low,gov,25,2021-03-20,FPT Telecom Company,97,75
+832,ip,spam,spam_ip,active,14.234.90.234,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),78,75
+833,ip,spam,spam_ip,active,1.55.1.50,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+834,ip,spam,spam_ip,active,171.224.207.216,low,gov,25,2021-03-20,Viettel Group,100,75
+835,ip,spam,spam_ip,active,125.235.227.122,low,gov,22,2021-03-20,Viettel Group,85,75
+836,ip,spam,spam_ip,active,113.174.162.51,low,gov,16,2021-03-20,Vietnam Posts and Telecommunications(VNPT),64,75
+837,ip,spam,spam_ip,active,27.66.73.164,low,gov,25,2021-03-20,Viettel Group,100,75
+838,ip,spam,spam_ip,active,1.54.4.77,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+839,ip,spam,spam_ip,active,116.106.51.99,low,gov,25,2021-03-20,Viettel Corporation,97,75
+840,ip,spam,spam_ip,active,118.70.13.225,low,gov,15,2021-03-20,FPT Telecom Company,57,75
+841,ip,spam,spam_ip,active,116.96.78.14,low,gov,25,2021-03-20,Viettel Group,98,75
+842,ip,spam,spam_ip,active,113.185.75.195,low,gov,22,2021-03-20,Vietnam Posts And Telecommunications Group,86,75
+843,ip,spam,spam_ip,active,123.16.240.69,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+844,ip,spam,spam_ip,active,123.16.88.41,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),96,75
+845,ip,spam,spam_ip,active,116.98.55.152,low,gov,24,2021-03-20,Viettel Corporation,95,75
+846,ip,spam,spam_ip,active,45.122.233.76,low,gov,20,2021-03-20,CMC Telecom Infrastructure Company,80,75
+847,ip,spam,spam_ip,active,27.71.109.84,low,gov,11,2021-03-20,Viettel Group,44,75
+848,ip,spam,spam_ip,active,14.247.30.177,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+849,ip,spam,spam_ip,active,42.114.162.241,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+850,ip,spam,spam_ip,active,27.73.163.201,low,gov,25,2021-03-20,Viettel Group,100,75
+851,ip,spam,spam_ip,active,14.169.215.138,low,gov,8,2021-03-20,Vietnam Posts and Telecommunications(VNPT),32,75
+852,ip,spam,spam_ip,active,116.111.12.194,low,gov,25,2021-03-20,Viettel Corporation,100,75
+853,ip,spam,spam_ip,active,27.70.212.251,low,gov,14,2021-03-20,Viettel Group,55,75
+854,ip,spam,spam_ip,active,14.162.39.67,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+855,ip,spam,spam_ip,active,27.64.205.99,low,gov,22,2021-03-20,Viettel Group,87,75
+856,ip,spam,spam_ip,active,171.241.43.191,low,gov,25,2021-03-20,Viettel Group,97,75
+857,ip,spam,spam_ip,active,115.76.71.70,low,gov,25,2021-03-20,Viettel Group,97,75
+858,ip,spam,spam_ip,active,42.113.220.142,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+859,ip,spam,spam_ip,active,14.180.143.203,low,gov,19,2021-03-20,Vietnam Posts And Telecommunications Group,76,75
+860,ip,spam,spam_ip,active,113.188.50.68,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),96,75
+861,ip,spam,spam_ip,active,103.155.82.111,low,gov,25,2021-03-20,,100,75
+862,ip,spam,spam_ip,active,123.22.57.31,low,gov,16,2021-03-20,Vietnam Posts and Telecommunications(VNPT),61,75
+863,ip,spam,spam_ip,active,123.24.87.24,low,gov,21,2021-03-20,Vietnam Posts and Telecommunications(VNPT),81,75
+864,ip,spam,spam_ip,active,14.176.37.226,low,gov,13,2021-03-20,Vietnam Posts and Telecommunications(VNPT),50,75
+865,ip,spam,spam_ip,active,1.52.127.14,low,gov,21,2021-03-20,FPT Telecom Company,81,75
+866,ip,spam,spam_ip,active,202.43.110.42,low,gov,17,2021-03-20,DTS Communication Technologies Corporation,66,75
+867,ip,spam,spam_ip,active,117.0.90.149,low,gov,23,2021-03-20,Viettel Group,89,75
+868,ip,spam,spam_ip,active,1.52.36.98,low,gov,20,2021-03-20,FPT Telecom,80,75
+869,ip,spam,spam_ip,active,42.118.219.20,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+870,ip,spam,spam_ip,active,113.160.150.74,low,gov,23,2021-03-20,Vietnam Posts and Telecommunications(VNPT),91,75
+871,ip,spam,spam_ip,active,27.71.122.173,low,gov,25,2021-03-20,Viettel Group,100,75
+872,ip,spam,spam_ip,active,1.55.43.100,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+873,ip,spam,spam_ip,active,171.240.40.178,low,gov,23,2021-03-20,Viettel Group,92,75
+874,ip,spam,spam_ip,active,123.28.119.243,low,gov,17,2021-03-20,Vietnam Posts and Telecommunications(VNPT),67,75
+875,ip,spam,spam_ip,active,113.180.81.214,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+876,ip,spam,spam_ip,active,42.112.157.173,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+877,ip,spam,spam_ip,active,14.169.158.211,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+878,ip,spam,spam_ip,active,123.17.119.37,low,gov,23,2021-03-20,Vietnam Posts and Telecommunications(VNPT),91,75
+879,ip,spam,spam_ip,active,118.70.49.143,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+880,ip,spam,spam_ip,active,116.103.18.55,low,gov,25,2021-03-20,Viettel Corporation,100,75
+881,ip,spam,spam_ip,active,14.250.156.132,low,gov,23,2021-03-20,Vietnam Posts And Telecommunications Group,91,75
+882,ip,spam,spam_ip,active,116.99.130.142,low,gov,25,2021-03-20,Viettel Corporation,100,75
+883,ip,spam,spam_ip,active,14.180.224.45,low,gov,22,2021-03-20,Vietnam Posts And Telecommunications Group,86,75
+884,ip,spam,spam_ip,active,113.188.51.142,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),96,75
+885,ip,spam,spam_ip,active,118.68.40.3,low,gov,19,2021-03-20,FPT Telecom Company,76,75
+886,ip,spam,spam_ip,active,58.186.126.96,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+887,ip,spam,spam_ip,active,171.224.217.5,low,gov,23,2021-03-20,Viettel Group,92,75
+888,ip,spam,spam_ip,active,113.165.103.91,low,gov,19,2021-03-20,Vietnam Posts and Telecommunications(VNPT),76,75
+889,ip,spam,spam_ip,active,1.54.129.20,low,gov,25,2021-03-20,FPT Telecom Company,98,75
+890,ip,spam,spam_ip,active,171.242.94.93,low,gov,24,2021-03-20,Viettel Group,95,75
+891,ip,spam,spam_ip,active,42.119.97.64,low,gov,25,2021-03-20,FPT Telecom Company,100,75
+892,ip,spam,spam_ip,active,14.186.154.178,low,gov,21,2021-03-20,Vietnam Posts and Telecommunications(VNPT),81,75
+893,ip,spam,spam_ip,active,117.7.204.72,low,gov,25,2021-03-20,Viettel Group,97,75
+894,ip,spam,spam_ip,active,171.224.5.134,low,gov,25,2021-03-20,Viettel Group,97,75
+895,ip,spam,spam_ip,active,42.117.111.243,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+896,ip,spam,spam_ip,active,123.20.63.30,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+897,ip,spam,spam_ip,active,171.240.62.239,low,gov,25,2021-03-20,Viettel Group,98,75
+898,ip,spam,spam_ip,active,123.20.176.255,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+899,ip,spam,spam_ip,active,14.184.47.36,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),86,75
+900,ip,spam,spam_ip,active,14.186.224.224,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),99,75
+901,ip,spam,spam_ip,active,113.181.216.85,low,gov,23,2021-03-20,Vietnam Posts and Telecommunications(VNPT),91,75
+902,ip,spam,spam_ip,active,42.113.0.128,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+903,ip,spam,spam_ip,active,14.232.236.164,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),99,75
+904,ip,spam,spam_ip,active,113.182.191.49,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),95,75
+905,ip,spam,spam_ip,active,171.241.15.223,low,gov,19,2021-03-20,Viettel Group,73,75
+906,ip,spam,spam_ip,active,113.172.214.93,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+907,ip,spam,spam_ip,active,123.21.1.66,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),97,75
+908,ip,spam,spam_ip,active,58.186.99.7,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+909,ip,spam,spam_ip,active,117.5.156.209,low,gov,25,2021-03-20,Viettel Group,100,75
+910,ip,spam,spam_ip,active,171.245.59.248,low,gov,25,2021-03-20,Viettel Group,100,75
+911,ip,spam,spam_ip,active,116.96.89.106,low,gov,22,2021-03-20,Viettel Group,86,75
+912,ip,spam,spam_ip,active,14.177.129.35,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+913,ip,spam,spam_ip,active,14.181.212.182,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+914,ip,spam,spam_ip,active,14.183.103.133,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),85,75
+915,ip,spam,spam_ip,active,117.3.150.38,low,gov,25,2021-03-20,Viettel Group,100,75
+916,ip,spam,spam_ip,active,14.169.141.159,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),97,75
+917,ip,spam,spam_ip,active,116.97.41.25,low,gov,24,2021-03-20,Viettel Group,96,75
+918,ip,spam,spam_ip,active,14.186.41.83,low,gov,18,2021-03-20,Vietnam Posts and Telecommunications(VNPT),71,75
+919,ip,spam,spam_ip,active,113.166.243.226,low,gov,23,2021-03-20,Vietnam Posts and Telecommunications(VNPT),89,75
+920,ip,spam,spam_ip,active,113.172.134.37,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+921,ip,spam,spam_ip,active,14.244.101.162,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+922,ip,spam,spam_ip,active,14.233.52.36,low,gov,23,2021-03-20,Vietnam Posts and Telecommunications(VNPT),92,75
+923,ip,spam,spam_ip,active,14.164.131.115,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+924,ip,spam,spam_ip,active,123.20.215.85,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),93,75
+925,ip,spam,spam_ip,active,14.234.109.190,low,gov,18,2021-03-20,Vietnam Posts and Telecommunications(VNPT),71,75
+926,ip,spam,spam_ip,active,123.21.164.59,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),98,75
+927,ip,spam,spam_ip,active,113.173.254.101,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+928,ip,spam,spam_ip,active,14.163.209.110,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+929,ip,spam,spam_ip,active,14.169.191.169,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),99,75
+930,ip,spam,spam_ip,active,27.73.67.210,low,gov,24,2021-03-20,Viettel Group,94,75
+931,ip,spam,spam_ip,active,14.177.223.247,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+932,ip,spam,spam_ip,active,222.253.154.61,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),95,75
+933,ip,spam,spam_ip,active,171.242.31.75,low,gov,24,2021-03-20,Viettel Group,95,75
+934,ip,spam,spam_ip,active,14.231.220.108,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+935,ip,spam,spam_ip,active,113.172.17.164,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+936,ip,spam,spam_ip,active,14.231.80.154,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+937,ip,spam,spam_ip,active,123.24.153.61,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+938,ip,spam,spam_ip,active,14.177.207.86,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+939,ip,spam,spam_ip,active,171.228.203.5,low,gov,25,2021-03-20,Viettel Group,100,75
+940,ip,spam,spam_ip,active,14.162.130.110,low,gov,19,2021-03-20,Vietnam Posts and Telecommunications(VNPT),76,75
+941,ip,spam,spam_ip,active,123.22.9.247,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),93,75
+942,ip,spam,spam_ip,active,171.236.139.50,low,gov,25,2021-03-20,Viettel Group,97,75
+943,ip,spam,spam_ip,active,222.252.38.225,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),97,75
+944,ip,spam,spam_ip,active,116.118.60.216,low,gov,21,2021-03-20,Saigon Postel Corporation,84,75
+945,ip,spam,spam_ip,active,14.162.185.78,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),96,75
+946,ip,spam,spam_ip,active,116.107.255.69,low,gov,25,2021-03-20,Viettel Group,97,75
+947,ip,spam,spam_ip,active,14.186.37.67,low,gov,21,2021-03-20,Vietnam Posts and Telecommunications(VNPT),81,75
+948,ip,spam,spam_ip,active,117.1.117.34,low,gov,25,2021-03-20,Viettel Group,97,75
+949,ip,spam,spam_ip,active,14.186.186.126,low,gov,21,2021-03-20,Vietnam Posts and Telecommunications(VNPT),81,75
+950,ip,spam,spam_ip,active,171.224.85.57,low,gov,25,2021-03-20,Viettel Group,97,75
+951,ip,spam,spam_ip,active,14.170.249.189,low,gov,16,2021-03-20,Vietnam Posts and Telecommunications(VNPT),61,75
+952,ip,spam,spam_ip,active,123.16.118.20,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+953,ip,spam,spam_ip,active,14.231.211.173,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),87,75
+954,ip,spam,spam_ip,active,118.68.175.2,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+955,ip,spam,spam_ip,active,222.252.51.168,low,gov,16,2021-03-20,Vietnam Posts and Telecommunications(VNPT),63,75
+956,ip,spam,spam_ip,active,222.254.95.52,low,gov,19,2021-03-20,Vietnam Posts and Telecommunications(VNPT),73,75
+957,ip,spam,spam_ip,active,14.227.81.178,low,gov,10,2021-03-20,Vietnam Posts And Telecommunications Group,40,75
+958,ip,spam,spam_ip,active,123.21.30.170,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),99,75
+959,ip,spam,spam_ip,active,27.73.75.101,low,gov,25,2021-03-20,Viettel Group,97,75
+960,ip,spam,spam_ip,active,117.6.212.225,low,gov,22,2021-03-20,Viettel Group,87,75
+961,ip,spam,spam_ip,active,113.178.61.96,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+962,ip,spam,spam_ip,active,14.232.182.14,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+963,ip,spam,spam_ip,active,14.232.230.19,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+964,ip,spam,spam_ip,active,14.250.19.140,low,gov,11,2021-03-20,Vietnam Posts And Telecommunications Group,41,75
+965,ip,spam,spam_ip,active,42.118.145.109,low,gov,23,2021-03-20,FPT Telecom Company,91,75
+966,ip,spam,spam_ip,active,123.21.219.195,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+967,ip,spam,spam_ip,active,171.246.132.167,low,gov,25,2021-03-20,Viettel Group,98,75
+968,ip,spam,spam_ip,active,42.113.164.54,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+969,ip,spam,spam_ip,active,117.6.3.246,low,gov,25,2021-03-20,Viettel Group,97,75
+970,ip,spam,spam_ip,active,113.190.148.222,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),93,75
+971,ip,spam,spam_ip,active,171.252.188.213,low,gov,22,2021-03-20,Viettel Group,87,75
+972,ip,spam,spam_ip,active,113.172.189.50,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),99,75
+973,ip,spam,spam_ip,active,116.102.47.158,low,gov,25,2021-03-20,Viettel Corporation,97,75
+974,ip,spam,spam_ip,active,123.18.157.139,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),94,75
+975,ip,spam,spam_ip,active,113.184.43.131,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),77,75
+976,ip,spam,spam_ip,active,171.241.3.131,low,gov,25,2021-03-20,Viettel Group,97,75
+977,ip,spam,spam_ip,active,27.66.240.209,low,gov,19,2021-03-20,Viettel Group,75,75
+978,ip,spam,spam_ip,active,171.240.62.246,low,gov,23,2021-03-20,Viettel Group,92,75
+979,ip,spam,spam_ip,active,45.122.255.65,low,gov,24,2021-03-20,Hai Phong Brand - CMC Telecommunication Infrastruc,95,75
+980,ip,spam,spam_ip,active,27.78.248.127,low,gov,21,2021-03-20,Viettel Group,84,75
+981,ip,spam,spam_ip,active,123.21.151.215,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+982,ip,spam,spam_ip,active,183.81.50.212,low,gov,25,2021-03-20,FPT Telecom Company,99,75
+983,ip,spam,spam_ip,active,14.167.226.126,low,gov,17,2021-03-20,Vietnam Posts and Telecommunications(VNPT),67,75
+984,ip,spam,spam_ip,active,113.180.168.116,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),94,75
+985,ip,spam,spam_ip,active,27.71.122.174,low,gov,25,2021-03-20,Viettel Group,100,75
+986,ip,spam,spam_ip,active,118.71.30.207,low,gov,22,2021-03-20,FPT Telecom Company,88,75
+987,ip,spam,spam_ip,active,113.186.34.71,low,gov,25,2021-03-20,Vietnam Posts and Telecommunications(VNPT),98,75
+988,ip,spam,spam_ip,active,14.233.251.17,low,gov,9,2021-03-20,Vietnam Posts and Telecommunications(VNPT),34,75
+989,ip,spam,spam_ip,active,113.181.158.25,low,gov,22,2021-03-20,Vietnam Posts and Telecommunications(VNPT),88,75
+990,ip,spam,spam_ip,active,123.17.128.220,low,gov,24,2021-03-20,Vietnam Posts and Telecommunications(VNPT),93,75
+991,ip,spam,spam_ip,active,113.160.225.229,low,gov,23,2021-03-20,Vietnam Posts and Telecommunications(VNPT),90,75
+992,ip,spam,spam_ip,active,116.111.178.60,low,gov,25,2021-03-20,Viettel Corporation,100,75
+993,ip,spam,spam_ip,active,113.170.0.32,low,gov,23,2021-03-20,Vietnam Posts and Telecommunications(VNPT),91,75
+994,ip,spam,spam_ip,active,171.248.73.79,low,gov,22,2021-03-20,Viettel Group,87,75
+995,ip,spam,spam_ip,active,171.228.134.254,low,gov,24,2021-03-20,Viettel Group,96,75
+996,ip,spam,spam_ip,active,14.244.179.35,low,gov,14,2021-03-20,Vietnam Posts and Telecommunications(VNPT),55,75
+997,ip,spam,spam_ip,active,14.186.31.21,low,gov,20,2021-03-20,Vietnam Posts and Telecommunications(VNPT),78,75
+998,domain,spam,spam_domain,active,visionfast.buzz,low,gov,8,2021-03-20,Cloudone Technology Company Limited,75,60
+999,domain,spam,spam_domain,active,secretgrowpro.buzz,low,gov,8,2021-03-20,Cloudone Technology Company Limited,73,60
+1000,domain,spam,spam_domain,active,oddritualplus.buzz,low,gov,8,2021-03-20,Cloudone Technology Company Limited,71,60
+1,url,malware,mal_url,active,http://landing.kofacins.com/pack/,high,gov,57,2021-03-16,FPT Telecom Company,71,100

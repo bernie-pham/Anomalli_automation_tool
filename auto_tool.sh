@@ -81,13 +81,13 @@ Cyan='\033[0;36m'
 
 
 echo "===========================************=============================="
-echo -e "${RED}▇▇       ▇▇   ▇▇▇▇▇▇▇  ▇▇      ▇▇  ▇▇▇▇▇▇▇▇   ▇▇▇▇▇▇▇▇   ▇▇▇▇▇▇▇▇"
-echo -e "${RED}▇▇       ▇▇ ▇▇      ▇   ▇▇    ▇▇   ▇▇     ▇▇  ▇▇         ▇▇      ▇▇"
-echo -e "${RED} ▇▇     ▇▇ ▇▇            ▇▇  ▇▇    ▇▇     ▇▇  ▇▇         ▇▇     ▇▇"
-echo -e "${RED}  ▇▇   ▇▇  ▇▇             ▇▇▇▇     ▇▇▇▇▇▇▇▇▇  ▇▇▇▇▇▇▇▇   ▇▇▇▇▇▇▇▇"
-echo -e "${RED}   ▇▇ ▇▇    ▇▇             ▇▇      ▇▇     ▇▇  ▇▇         ▇▇▇▇▇▇"
+echo -e "${RED}▇▇       ▇▇   ▇▇▇▇▇▇▇  ▇▇      ▇▇  ▇▇▇▇▇▇▇▇   ▇▇▇▇▇▇▇▇   ▇▇▇▇▇▇▇"
+echo -e "${RED}▇▇       ▇▇ ▇▇      ▇   ▇▇    ▇▇   ▇▇     ▇▇  ▇▇         ▇▇     ▇▇"
+echo -e "${RED} ▇▇     ▇▇ ▇▇            ▇▇  ▇▇    ▇▇     ▇▇  ▇▇         ▇▇    ▇▇"
+echo -e "${RED}  ▇▇   ▇▇  ▇▇             ▇▇▇▇     ▇▇▇▇▇▇▇▇▇  ▇▇▇▇▇▇▇▇   ▇▇▇▇▇▇"
+echo -e "${RED}   ▇▇ ▇▇    ▇▇             ▇▇      ▇▇     ▇▇  ▇▇         ▇▇  ▇▇"
 echo -e "${RED}    ▇▇▇      ▇▇    ▇       ▇▇      ▇▇     ▇▇  ▇▇         ▇▇   ▇▇"
-echo -e "${RED}     ▇        ▇▇▇▇▇▇       ▇▇      ▇▇▇▇▇▇▇▇   ▇▇▇▇▇▇▇▇   ▇▇     ▇▇"
+echo -e "${RED}     ▇        ▇▇▇▇▇▇       ▇▇      ▇▇▇▇▇▇▇▇   ▇▇▇▇▇▇▇▇   ▇▇    ▇▇"
 echo -e "${Cyan}v3.1 by __phamhuy${NOCOLOR}"
 echo "===========================************=============================="
 
@@ -152,7 +152,13 @@ function containsElement { # check if a string contains value of an array
 
 
 function fetching_config {
-	echo ""		
+	while IFS='=' read  var value; do
+		if [[ "$var" = "#"* ]];then
+			echo ""
+		elif [[ ${#var} -gt 1 ]]; then
+			echo "$var=$value"
+		fi
+	done < <(cat "/home/thehuy/Desktop/vAuto.config")
 }
 
 
@@ -161,33 +167,33 @@ function fetching_config {
 
 function automation {
 	# retrieving ioc from threatstream
-	#retrieving_ioc
-	#retrieved_dir=$dir
-	#day_retrieve=$d
+	retrieving_ioc
+	retrieved_dir=$dir
+	day_retrieve=$d
 	# reporting
-	#convert_to_csv $retrieved_dir $day_retrieve
-	#import_dir=$p_dir
+	convert_to_csv $retrieved_dir $day_retrieve
+	import_dir=$p_dir
 	
 	#extracting ioc file
-	#extract_ioc_for_notification $retrieved_dir
-	#extracting_ioc_dir=$ext_file
-	extracting_ioc_dir="/home/thehuy/Desktop/report.txt"
+	extract_ioc_for_notification $retrieved_dir
+	extracting_ioc_dir=$ext_file
+	
 	# notificating
 	notificating $extracting_ioc_dir
 	
-	
+	# cleaning extracting file
+	rm -f $extracting_ioc_dir
 	
 	# cleaning Retrieved_TI directory
-	#rm -d -r $retrieved_dir	
+	rm -d -r $retrieved_dir	
 	
 	# importing
-	#import $p_dir
+	import $p_dir
 	
 	#cleaning import directory
-	#rm -d -r $import_dir
+	rm -d -r $import_dir
 	
-	# cleaning extracting file
-	#rm -f $extracting_ioc_dir
+	
 }
 
 
@@ -299,9 +305,9 @@ function convert_to_csv { # iterating all json file from given directory
 			en=$?
 			
 			if [[ $fin -eq 1 ]]; then
-				suffix="fin"
+				suffix="finance"
 			elif [[ $en -eq 1 ]]; then
-				suffix="en"
+				suffix="energy"
 			else
 				suffix="gov"
 			fi
@@ -312,7 +318,7 @@ function convert_to_csv { # iterating all json file from given directory
 			if [[ $itype =  *"bot"* ]]; then
 				f=$p_dir"/import_$(TZ=Asia/Ho_Chi_Minh date +'%F')_bot_$suffix.csv"
 				if [[ -f "$f" ]]; then
-					echo $value","$itype',"'$tags'",,'  >> $f
+					echo $value","$itype","$tags","$suffix","  >> $f
 				else
 					touch $f
 					echo "value,itype,tags,private_tags,tlp" >> $f
@@ -320,7 +326,7 @@ function convert_to_csv { # iterating all json file from given directory
 			elif [[ $itype =  *"compromised"* ]]; then
 				f=$p_dir"/import_$(TZ=Asia/Ho_Chi_Minh date +'%F')_compromised_$suffix.csv"
 				if [[ -f "$f" ]]; then
-					echo $value","$itype',"'$tags'",,'  >> $f
+					echo $value","$itype","$tags","$suffix","  >> $f
 				else
 					touch $f
 					echo "value,itype,tags,private_tags,tlp" >> $f
@@ -328,7 +334,7 @@ function convert_to_csv { # iterating all json file from given directory
 			elif [[ $itype =  *"brute"* ]]; then
 				f=$p_dir"/import_$(TZ=Asia/Ho_Chi_Minh date +'%F')_brute_$suffix.csv"
 				if [[ -f "$f" ]]; then
-					echo $value","$itype',"'$tags'",,'  >> $f
+					echo $value","$itype","$tags","$suffix","  >> $f
 				else
 					touch $f
 					echo "value,itype,tags,private_tags,tlp" >> $f
@@ -336,7 +342,7 @@ function convert_to_csv { # iterating all json file from given directory
 			elif [[ $itype =  *"exploit"* ]]; then
 				f=$p_dir"/import_$(TZ=Asia/Ho_Chi_Minh date +'%F')_exploit_$suffix.csv"
 				if [[ -f "$f" ]]; then
-					echo $value","$itype',"'$tags'",,'  >> $f
+					echo $value","$itype","$tags","$suffix","  >> $f
 				else
 					touch $f
 					echo "value,itype,tags,private_tags,tlp" >> $f
@@ -344,7 +350,7 @@ function convert_to_csv { # iterating all json file from given directory
 			elif [[ $itype =  *"mal"* ]]; then
 				f=$p_dir"/import_$(TZ=Asia/Ho_Chi_Minh date +'%F')_malware_$suffix.csv"
 				if [[ -f "$f" ]]; then
-					echo $value","$itype',"'$tags'",,'  >> $f
+					echo $value","$itype","$tags","$suffix","  >> $f
 				else
 					touch $f
 					echo "value,itype,tags,private_tags,tlp" >> $f
@@ -352,7 +358,7 @@ function convert_to_csv { # iterating all json file from given directory
 			elif [[ $itype =  *"scan"* ]]; then
 				f=$p_dir"/import_$(TZ=Asia/Ho_Chi_Minh date +'%F')_scan_$suffix.csv"
 				if [[ -f "$f" ]]; then
-					echo $value","$itype',"'$tags'",,'  >> $f
+					echo $value","$itype","$tags","$suffix","  >> $f
 				else
 					touch $f
 					echo "value,itype,tags,private_tags,tlp" >> $f
@@ -360,7 +366,7 @@ function convert_to_csv { # iterating all json file from given directory
 			elif [[ $itype =  *"spam"* ]]; then
 				f=$p_dir"/import_$(TZ=Asia/Ho_Chi_Minh date +'%F')_spam_$suffix.csv"
 				if [[ -f "$f" ]]; then
-					echo $value","$itype',"'$tags'",,'  >> $f
+					echo $value","$itype","$tags","$suffix","  >> $f
 				else
 					touch $f
 					echo "value,itype,tags,private_tags,tlp" >> $f
@@ -368,7 +374,7 @@ function convert_to_csv { # iterating all json file from given directory
 			elif [[ $itype =  *"suspicious"* ]]; then
 				f=$p_dir"/import_$(TZ=Asia/Ho_Chi_Minh date +'%F')_suspicious_$suffix.csv"
 				if [[ -f "$f" ]]; then
-					echo $value","$itype',"'$tags'",,'  >> $f
+					echo $value","$itype","$tags","$suffix","  >> $f
 				else
 					touch $f
 					echo "value,itype,tags,private_tags,tlp" >> $f
@@ -376,7 +382,7 @@ function convert_to_csv { # iterating all json file from given directory
 			elif [[ $itype =  *"tor"* ]]; then
 				f=$p_dir"/import_$(TZ=Asia/Ho_Chi_Minh date +'%F')_tor_$suffix.csv"
 				if [[ -f "$f" ]]; then
-					echo $value","$itype',"'$tags'",,'  >> $f
+					echo $value","$itype","$tags","$suffix","  >> $f
 				else
 					touch $f
 					echo "value,itype,tags,private_tags,tlp" >> $f
